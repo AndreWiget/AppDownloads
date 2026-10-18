@@ -1,0 +1,72 @@
+{
+  "id": "extra_mission_01_rainstorm",
+  "category": "EXTRA_MISSION",
+  "number": 1,
+  "title": "Extra-Mission 1: Gewitter-Krise",
+  "subtitle": "Sintflutartige Regenfälle",
+  "description": "Ein plötzlicher Sommerregen droht die Nesteingänge zu überfluten. Verstärke die Wälle, rette Larven und ernte schwimmende Pflanzenteile.",
+  "author": "Colony Master BioLab",
+  "version": 1,
+  "difficulty": "MEDIUM",
+  "initialResources": {
+    "plantMaterial": 120.0,
+    "protein": 60.0,
+    "water": 150.0,
+    "resinMineral": 80.0,
+    "genePoints": 20.0
+  },
+  "customGardenNodes": [
+    {
+      "id": "res_leaf_rain_1",
+      "type": "PLANT_MATERIAL",
+      "position": {
+        "x": 70.0,
+        "y": 45.0
+      },
+      "remainingAmount": 180.0,
+      "maxAmount": 180.0
+    },
+    {
+      "id": "res_puddle_water_1",
+      "type": "WATER",
+      "position": {
+        "x": 50.0,
+        "y": 75.0
+      },
+      "remainingAmount": 250.0,
+      "maxAmount": 250.0
+    }
+  ],
+  "initialHazards": [
+    {
+      "id": "hazard_flooding_pool",
+      "type": "RAIN_PUDDLE",
+      "position": {
+        "x": 55.0,
+        "y": 65.0
+      },
+      "hp": 100.0
+    }
+  ],
+  "objectives": [
+    {
+      "id": "obj_survive_rain",
+      "description": "Sammle 200 Wasser für Notfallreservoire",
+      "type": "COLLECT_RESOURCE",
+      "targetAmount": 200.0,
+      "targetResourceType": "WATER",
+      "isPrimary": true
+    },
+    {
+      "id": "obj_storage_flood",
+      "description": "Errichte 2 Vorratskammern zur Sicherung",
+      "type": "BUILD_CHAMBER",
+      "targetAmount": 2.0,
+      "targetChamberType": "FOOD_STORE",
+      "isPrimary": true
+    }
+  ],
+  "rewardGenePoints": 40.0,
+  "fileSizeKb": 14,
+  "downloadUrl": "https://raw.githubusercontent.com/AndreWiget/AppDownloads/main/Colony/levels/extra_mission_01_rainstorm.json"
+}

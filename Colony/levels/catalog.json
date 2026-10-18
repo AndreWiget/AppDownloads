@@ -1,0 +1,44 @@
+[
+  {
+    "id": "extra_mission_01_rainstorm",
+    "category": "EXTRA_MISSION",
+    "number": 1,
+    "title": "Extra-Mission 1: Gewitter-Krise",
+    "subtitle": "Sintflutartige Regenfälle",
+    "description": "Ein plötzlicher Sommerregen droht die Nesteingänge zu überfluten. Verstärke die Wälle, rette Larven und ernte schwimmende Pflanzenteile.",
+    "author": "Colony Master BioLab",
+    "version": 1,
+    "difficulty": "MEDIUM",
+    "rewardGenePoints": 40.0,
+    "fileSizeKb": 14,
+    "downloadUrl": "https://raw.githubusercontent.com/AndreWiget/AppDownloads/main/Colony/levels/extra_mission_01_rainstorm.json"
+  },
+  {
+    "id": "extra_mission_02_spider_nest",
+    "category": "EXTRA_MISSION",
+    "number": 2,
+    "title": "Extra-Mission 2: Spinnennest-Infiltration",
+    "subtitle": "Jagd im Schatten der Hecke",
+    "description": "Eine Wolfsspinne hat ihr Revier neben der reichsten Blattlauskolonie aufgeschlagen. Trainiere eine Armee von Soldaten und erobere das Territorium.",
+    "author": "Entomology League",
+    "version": 1,
+    "difficulty": "HARD",
+    "rewardGenePoints": 65.0,
+    "fileSizeKb": 18,
+    "downloadUrl": "https://raw.githubusercontent.com/AndreWiget/AppDownloads/main/Colony/levels/extra_mission_02_spider_nest.json"
+  },
+  {
+    "id": "extra_mission_03_drought",
+    "category": "EXTRA_MISSION",
+    "number": 3,
+    "title": "Extra-Mission 3: Dürre & Grundwasser-Expedition",
+    "subtitle": "Die Suche nach tiefen Quellen",
+    "description": "Die Sonne brennt unbarmherzig. Die oberflächlichen Tautropfen sind verdunstet. Grabe tiefe Kammern, um Grundwasser-Adern im Erdreich anzuzapfen.",
+    "author": "Nature Strategy Hub",
+    "version": 1,
+    "difficulty": "EXPERT",
+    "rewardGenePoints": 80.0,
+    "fileSizeKb": 16,
+    "downloadUrl": "https://raw.githubusercontent.com/AndreWiget/AppDownloads/main/Colony/levels/extra_mission_03_drought.json"
+  }
+]

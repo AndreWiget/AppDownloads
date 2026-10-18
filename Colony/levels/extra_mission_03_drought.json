@@ -1,0 +1,62 @@
+{
+  "id": "extra_mission_03_drought",
+  "category": "EXTRA_MISSION",
+  "number": 3,
+  "title": "Extra-Mission 3: Dürre & Grundwasser-Expedition",
+  "subtitle": "Die Suche nach tiefen Quellen",
+  "description": "Die Sonne brennt unbarmherzig. Die oberflächlichen Tautropfen sind verdunstet. Grabe tiefe Kammern, um Grundwasser-Adern im Erdreich anzuzapfen.",
+  "author": "Nature Strategy Hub",
+  "version": 1,
+  "difficulty": "EXPERT",
+  "initialResources": {
+    "plantMaterial": 200.0,
+    "protein": 50.0,
+    "water": 30.0,
+    "resinMineral": 100.0,
+    "genePoints": 30.0
+  },
+  "customGardenNodes": [
+    {
+      "id": "res_dry_resin",
+      "type": "RESIN_MINERAL",
+      "position": {
+        "x": 40.0,
+        "y": 80.0
+      },
+      "remainingAmount": 300.0,
+      "maxAmount": 300.0
+    }
+  ],
+  "initialHazards": [
+    {
+      "id": "hazard_scorching_heat",
+      "type": "BEETLE_LARVA",
+      "position": {
+        "x": 70.0,
+        "y": 70.0
+      },
+      "hp": 80.0
+    }
+  ],
+  "objectives": [
+    {
+      "id": "obj_deep_water_chambers",
+      "description": "Errichte 3 Wasserreservoirs im Untergrund",
+      "type": "BUILD_CHAMBER",
+      "targetAmount": 3.0,
+      "targetChamberType": "WATER_RESERVOIR",
+      "isPrimary": true
+    },
+    {
+      "id": "obj_harvest_water_200",
+      "description": "Sammle 200 Wasserreserven",
+      "type": "COLLECT_RESOURCE",
+      "targetAmount": 200.0,
+      "targetResourceType": "WATER",
+      "isPrimary": true
+    }
+  ],
+  "rewardGenePoints": 80.0,
+  "fileSizeKb": 16,
+  "downloadUrl": "https://raw.githubusercontent.com/AndreWiget/AppDownloads/main/Colony/levels/extra_mission_03_drought.json"
+}
