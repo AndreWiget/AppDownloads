@@ -1,0 +1,106 @@
+{
+    "id": 440,
+    "world": "GRAVEYARD",
+    "name": "Magnetic Storm B",
+    "objectiveType": "RACE_TIME_TRIAL",
+    "description": "Official downloadable server level 40 for Graveyard: Magnetic Storm B.",
+    "primaryGoalText": "Complete Magnetic Storm B objective",
+    "spawnPosition": {
+        "x": 0.0,
+        "y": 15.0
+    },
+    "spawnAngleRad": 0.0,
+    "targetPadId": "pad_server_440",
+    "allowedShips": [
+        "SCOUT",
+        "MULE",
+        "WASP",
+        "TITAN",
+        "PHANTOM"
+    ],
+    "defaultShip": "PHANTOM",
+    "physicsMode": "NEWTON",
+    "medalTargets": {
+        "bronzeSeconds": 153.0,
+        "silverSeconds": 107.1,
+        "goldSeconds": 76.5,
+        "platinumSeconds": 57.375
+    },
+    "terrainSegments": [
+        {
+            "start": {
+                "x": -20.0,
+                "y": 0.0
+            },
+            "end": {
+                "x": 177.0,
+                "y": 0.0
+            },
+            "surfaceType": "ROCK",
+            "friction": 0.5,
+            "restitution": 0.2
+        }
+    ],
+    "landingPads": [
+        {
+            "id": "pad_start",
+            "start": {
+                "x": -5.0,
+                "y": 0.0
+            },
+            "end": {
+                "x": 5.0,
+                "y": 0.0
+            },
+            "maxVerticalSpeedPerfect": 1.5,
+            "maxHorizontalSpeedPerfect": 1.0,
+            "maxAngleDegreesPerfect": 8.0,
+            "maxVerticalSpeedSafe": 3.0,
+            "maxHorizontalSpeedSafe": 2.0,
+            "maxAngleDegreesSafe": 15.0,
+            "maxVerticalSpeedHard": 6.0,
+            "maxHorizontalSpeedHard": 4.0,
+            "maxAngleDegreesHard": 25.0,
+            "requiredStableTime": 0.5
+        },
+        {
+            "id": "pad_server_440",
+            "start": {
+                "x": 117.0,
+                "y": 0.0
+            },
+            "end": {
+                "x": 132.0,
+                "y": 0.0
+            },
+            "maxVerticalSpeedPerfect": 1.5,
+            "maxHorizontalSpeedPerfect": 1.0,
+            "maxAngleDegreesPerfect": 8.0,
+            "maxVerticalSpeedSafe": 3.0,
+            "maxHorizontalSpeedSafe": 2.0,
+            "maxAngleDegreesSafe": 15.0,
+            "maxVerticalSpeedHard": 6.0,
+            "maxHorizontalSpeedHard": 4.0,
+            "maxAngleDegreesHard": 25.0,
+            "requiredStableTime": 0.5
+        }
+    ],
+    "gravityFields": [],
+    "hazardZones": [],
+    "cargoSpawns": [],
+    "deliveryZones": [],
+    "checkpoints": [
+        {
+            "index": 1,
+            "position": {
+                "x": 58.0,
+                "y": -15.0
+            },
+            "radius": 8.0,
+            "isPassed": false
+        }
+    ],
+    "maxDamagePercentAllowed": 100.0,
+    "minFuelRemainingPercent": 0.0,
+    "timeLimitSeconds": null
+}

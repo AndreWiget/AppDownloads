@@ -1,0 +1,120 @@
+{
+    "id": 334,
+    "world": "VULCAN",
+    "name": "Obsidian Gate",
+    "objectiveType": "RACE_TIME_TRIAL",
+    "description": "Official downloadable server level 34 for Vulcan: Obsidian Gate.",
+    "primaryGoalText": "Complete Obsidian Gate objective",
+    "spawnPosition": {
+        "x": 0.0,
+        "y": -1.2
+    },
+    "spawnAngleRad": 0.0,
+    "targetPadId": "pad_server_334",
+    "allowedShips": [
+        "SCOUT",
+        "MULE",
+        "WASP",
+        "TITAN",
+        "PHANTOM"
+    ],
+    "defaultShip": "SCOUT",
+    "physicsMode": "ARCADE",
+    "medalTargets": {
+        "bronzeSeconds": 111.0,
+        "silverSeconds": 77.7,
+        "goldSeconds": 55.5,
+        "platinumSeconds": 41.625
+    },
+    "terrainSegments": [
+        {
+            "start": {
+                "x": -20.0,
+                "y": 0.0
+            },
+            "end": {
+                "x": 159.0,
+                "y": 0.0
+            },
+            "surfaceType": "ROCK",
+            "friction": 0.5,
+            "restitution": 0.2
+        }
+    ],
+    "landingPads": [
+        {
+            "id": "pad_start",
+            "start": {
+                "x": -5.0,
+                "y": 0.0
+            },
+            "end": {
+                "x": 5.0,
+                "y": 0.0
+            },
+            "maxVerticalSpeedPerfect": 1.5,
+            "maxHorizontalSpeedPerfect": 1.0,
+            "maxAngleDegreesPerfect": 8.0,
+            "maxVerticalSpeedSafe": 3.0,
+            "maxHorizontalSpeedSafe": 2.0,
+            "maxAngleDegreesSafe": 15.0,
+            "maxVerticalSpeedHard": 6.0,
+            "maxHorizontalSpeedHard": 4.0,
+            "maxAngleDegreesHard": 25.0,
+            "requiredStableTime": 0.5
+        },
+        {
+            "id": "pad_server_334",
+            "start": {
+                "x": 99.0,
+                "y": 0.0
+            },
+            "end": {
+                "x": 114.0,
+                "y": 0.0
+            },
+            "maxVerticalSpeedPerfect": 1.5,
+            "maxHorizontalSpeedPerfect": 1.0,
+            "maxAngleDegreesPerfect": 8.0,
+            "maxVerticalSpeedSafe": 3.0,
+            "maxHorizontalSpeedSafe": 2.0,
+            "maxAngleDegreesSafe": 15.0,
+            "maxVerticalSpeedHard": 6.0,
+            "maxHorizontalSpeedHard": 4.0,
+            "maxAngleDegreesHard": 25.0,
+            "requiredStableTime": 0.5
+        }
+    ],
+    "gravityFields": [
+        {
+            "id": "planetary_gravity",
+            "position": {
+                "x": 0.0,
+                "y": 10000.0
+            },
+            "mu": 9.8100006E8,
+            "maxRadius": 20000.0,
+            "maxAcceleration": 14.715,
+            "epsilon": 0.1,
+            "isArtificial": false,
+            "isInverted": false
+        }
+    ],
+    "hazardZones": [],
+    "cargoSpawns": [],
+    "deliveryZones": [],
+    "checkpoints": [
+        {
+            "index": 1,
+            "position": {
+                "x": 46.0,
+                "y": -15.0
+            },
+            "radius": 8.0,
+            "isPassed": false
+        }
+    ],
+    "maxDamagePercentAllowed": 100.0,
+    "minFuelRemainingPercent": 0.0,
+    "timeLimitSeconds": null
+}

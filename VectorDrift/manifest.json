@@ -1,0 +1,94 @@
+{
+  "repositoryTitle": "Vector Drift Official Mission Repository",
+  "updatedAt": "2026-09-03T12:00:00Z",
+  "packs": [
+    {
+      "packId": "luna_server_pack",
+      "world": "LUNA",
+      "title": "Luna Server Pack (20 Levels)",
+      "relativePath": "luna_server_pack.json"
+    },
+    {
+      "packId": "europa_server_pack",
+      "world": "EUROPA",
+      "title": "Europa Server Pack (20 Levels)",
+      "relativePath": "europa_server_pack.json"
+    },
+    {
+      "packId": "vulcan_server_pack",
+      "world": "VULCAN",
+      "title": "Vulcan Server Pack (20 Levels)",
+      "relativePath": "vulcan_server_pack.json"
+    },
+    {
+      "packId": "graveyard_server_pack",
+      "world": "GRAVEYARD",
+      "title": "Graveyard Server Pack (20 Levels)",
+      "relativePath": "graveyard_server_pack.json"
+    },
+    {
+      "packId": "singularity_server_pack",
+      "world": "SINGULARITY",
+      "title": "Singularity Server Pack (20 Levels)",
+      "relativePath": "singularity_server_pack.json"
+    }
+  ],
+  "individualLevels": [
+    {
+      "id": 131,
+      "world": "LUNA",
+      "name": "Anomalous Crater",
+      "author": "Vector Dynamics Lab",
+      "description": "Downloadable level 31 for Luna.",
+      "relativePath": "luna/level_131.json"
+    },
+    {
+      "id": 132,
+      "world": "LUNA",
+      "name": "Deep Crust Shaft",
+      "author": "Vector Dynamics Lab",
+      "description": "Downloadable level 32 for Luna.",
+      "relativePath": "luna/level_132.json"
+    },
+    {
+      "id": 231,
+      "world": "EUROPA",
+      "name": "Cryo Trench",
+      "author": "Jovian Logistics",
+      "description": "Downloadable level 31 for Europa.",
+      "relativePath": "europa/level_231.json"
+    },
+    {
+      "id": 232,
+      "world": "EUROPA",
+      "name": "Sub-Glacier Run",
+      "author": "Jovian Logistics",
+      "description": "Downloadable level 32 for Europa.",
+      "relativePath": "europa/level_232.json"
+    },
+    {
+      "id": 331,
+      "world": "VULCAN",
+      "name": "Magma Chamber B",
+      "author": "Obsidian Aerospace",
+      "description": "Downloadable level 31 for Vulcan.",
+      "relativePath": "vulcan/level_331.json"
+    },
+    {
+      "id": 431,
+      "world": "GRAVEYARD",
+      "name": "Derelict Array",
+      "author": "AstroVector Research",
+      "description": "Downloadable level 31 for Graveyard.",
+      "relativePath": "graveyard/level_431.json"
+    },
+    {
+      "id": 531,
+      "world": "SINGULARITY",
+      "name": "Micro Black Hole B",
+      "author": "Quantum Dynamics Lab",
+      "description": "Downloadable level 31 for Singularity.",
+      "relativePath": "singularity/level_531.json"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+    "id": 546,
+    "world": "SINGULARITY",
+    "name": "Tidal Escape B",
+    "objectiveType": "RACE_TIME_TRIAL",
+    "description": "Official downloadable server level 46 for Singularity: Tidal Escape B.",
+    "primaryGoalText": "Complete Tidal Escape B objective",
+    "spawnPosition": {
+        "x": 0.0,
+        "y": 15.0
+    },
+    "spawnAngleRad": 0.0,
+    "targetPadId": "pad_server_546",
+    "allowedShips": [
+        "SCOUT",
+        "MULE",
+        "WASP",
+        "TITAN",
+        "PHANTOM"
+    ],
+    "defaultShip": "PHANTOM",
+    "physicsMode": "NEWTON",
+    "medalTargets": {
+        "bronzeSeconds": 195.0,
+        "silverSeconds": 136.5,
+        "goldSeconds": 97.5,
+        "platinumSeconds": 73.125
+    },
+    "terrainSegments": [
+        {
+            "start": {
+                "x": -20.0,
+                "y": 0.0
+            },
+            "end": {
+                "x": 195.0,
+                "y": 0.0
+            },
+            "surfaceType": "ROCK",
+            "friction": 0.5,
+            "restitution": 0.2
+        }
+    ],
+    "landingPads": [
+        {
+            "id": "pad_start",
+            "start": {
+                "x": -5.0,
+                "y": 0.0
+            },
+            "end": {
+                "x": 5.0,
+                "y": 0.0
+            },
+            "maxVerticalSpeedPerfect": 1.5,
+            "maxHorizontalSpeedPerfect": 1.0,
+            "maxAngleDegreesPerfect": 8.0,
+            "maxVerticalSpeedSafe": 3.0,
+            "maxHorizontalSpeedSafe": 2.0,
+            "maxAngleDegreesSafe": 15.0,
+            "maxVerticalSpeedHard": 6.0,
+            "maxHorizontalSpeedHard": 4.0,
+            "maxAngleDegreesHard": 25.0,
+            "requiredStableTime": 0.5
+        },
+        {
+            "id": "pad_server_546",
+            "start": {
+                "x": 135.0,
+                "y": 0.0
+            },
+            "end": {
+                "x": 150.0,
+                "y": 0.0
+            },
+            "maxVerticalSpeedPerfect": 1.5,
+            "maxHorizontalSpeedPerfect": 1.0,
+            "maxAngleDegreesPerfect": 8.0,
+            "maxVerticalSpeedSafe": 3.0,
+            "maxHorizontalSpeedSafe": 2.0,
+            "maxAngleDegreesSafe": 15.0,
+            "maxVerticalSpeedHard": 6.0,
+            "maxHorizontalSpeedHard": 4.0,
+            "maxAngleDegreesHard": 25.0,
+            "requiredStableTime": 0.5
+        }
+    ],
+    "gravityFields": [
+        {
+            "id": "sing_server_546",
+            "position": {
+                "x": 80.0,
+                "y": 20.0
+            },
+            "mu": 6000.0,
+            "maxRadius": 50.0,
+            "maxAcceleration": 25.0,
+            "epsilon": 5.0,
+            "isArtificial": false,
+            "isInverted": false
+        }
+    ],
+    "hazardZones": [],
+    "cargoSpawns": [],
+    "deliveryZones": [],
+    "checkpoints": [
+        {
+            "index": 1,
+            "position": {
+                "x": 70.0,
+                "y": -15.0
+            },
+            "radius": 8.0,
+            "isPassed": false
+        }
+    ],
+    "maxDamagePercentAllowed": 100.0,
+    "minFuelRemainingPercent": 0.0,
+    "timeLimitSeconds": null
+}

@@ -1,0 +1,2273 @@
+{
+    "packId": "graveyard_server_pack",
+    "title": "Graveyard Server Pack",
+    "author": "Vector Drift Official Server",
+    "description": "Official downloadable expansion pack containing 20 custom missions.",
+    "version": "1.0",
+    "missions": [
+        {
+            "id": 431,
+            "world": "GRAVEYARD",
+            "name": "Derelict Array",
+            "objectiveType": "NAVIGATION",
+            "description": "Official downloadable server level 31 for Graveyard: Derelict Array.",
+            "primaryGoalText": "Complete Derelict Array objective",
+            "spawnPosition": {
+                "x": 0.0,
+                "y": 15.0
+            },
+            "spawnAngleRad": 0.0,
+            "targetPadId": "pad_server_431",
+            "allowedShips": [
+                "SCOUT",
+                "MULE",
+                "WASP",
+                "TITAN",
+                "PHANTOM"
+            ],
+            "defaultShip": "PHANTOM",
+            "physicsMode": "NEWTON",
+            "medalTargets": {
+                "bronzeSeconds": 90.0,
+                "silverSeconds": 63.0,
+                "goldSeconds": 45.0,
+                "platinumSeconds": 33.75
+            },
+            "terrainSegments": [
+                {
+                    "start": {
+                        "x": -20.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 150.0,
+                        "y": 0.0
+                    },
+                    "surfaceType": "ROCK",
+                    "friction": 0.5,
+                    "restitution": 0.2
+                }
+            ],
+            "landingPads": [
+                {
+                    "id": "pad_start",
+                    "start": {
+                        "x": -5.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 5.0,
+                        "y": 0.0
+                    },
+                    "maxVerticalSpeedPerfect": 1.5,
+                    "maxHorizontalSpeedPerfect": 1.0,
+                    "maxAngleDegreesPerfect": 8.0,
+                    "maxVerticalSpeedSafe": 3.0,
+                    "maxHorizontalSpeedSafe": 2.0,
+                    "maxAngleDegreesSafe": 15.0,
+                    "maxVerticalSpeedHard": 6.0,
+                    "maxHorizontalSpeedHard": 4.0,
+                    "maxAngleDegreesHard": 25.0,
+                    "requiredStableTime": 0.5
+                },
+                {
+                    "id": "pad_server_431",
+                    "start": {
+                        "x": 90.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 105.0,
+                        "y": 0.0
+                    },
+                    "maxVerticalSpeedPerfect": 1.5,
+                    "maxHorizontalSpeedPerfect": 1.0,
+                    "maxAngleDegreesPerfect": 8.0,
+                    "maxVerticalSpeedSafe": 3.0,
+                    "maxHorizontalSpeedSafe": 2.0,
+                    "maxAngleDegreesSafe": 15.0,
+                    "maxVerticalSpeedHard": 6.0,
+                    "maxHorizontalSpeedHard": 4.0,
+                    "maxAngleDegreesHard": 25.0,
+                    "requiredStableTime": 0.5
+                }
+            ],
+            "gravityFields": [],
+            "hazardZones": [],
+            "cargoSpawns": [],
+            "deliveryZones": [],
+            "checkpoints": [
+                {
+                    "index": 1,
+                    "position": {
+                        "x": 40.0,
+                        "y": -15.0
+                    },
+                    "radius": 8.0,
+                    "isPassed": false
+                }
+            ],
+            "maxDamagePercentAllowed": 100.0,
+            "minFuelRemainingPercent": 0.0,
+            "timeLimitSeconds": null
+        },
+        {
+            "id": 432,
+            "world": "GRAVEYARD",
+            "name": "Solar Sail Drift",
+            "objectiveType": "LANDING",
+            "description": "Official downloadable server level 32 for Graveyard: Solar Sail Drift.",
+            "primaryGoalText": "Complete Solar Sail Drift objective",
+            "spawnPosition": {
+                "x": 0.0,
+                "y": 15.0
+            },
+            "spawnAngleRad": 0.0,
+            "targetPadId": "pad_server_432",
+            "allowedShips": [
+                "SCOUT",
+                "MULE",
+                "WASP",
+                "TITAN",
+                "PHANTOM"
+            ],
+            "defaultShip": "PHANTOM",
+            "physicsMode": "NEWTON",
+            "medalTargets": {
+                "bronzeSeconds": 97.0,
+                "silverSeconds": 67.9,
+                "goldSeconds": 48.5,
+                "platinumSeconds": 36.375
+            },
+            "terrainSegments": [
+                {
+                    "start": {
+                        "x": -20.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 153.0,
+                        "y": 0.0
+                    },
+                    "surfaceType": "ROCK",
+                    "friction": 0.5,
+                    "restitution": 0.2
+                }
+            ],
+            "landingPads": [
+                {
+                    "id": "pad_start",
+                    "start": {
+                        "x": -5.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 5.0,
+                        "y": 0.0
+                    },
+                    "maxVerticalSpeedPerfect": 1.5,
+                    "maxHorizontalSpeedPerfect": 1.0,
+                    "maxAngleDegreesPerfect": 8.0,
+                    "maxVerticalSpeedSafe": 3.0,
+                    "maxHorizontalSpeedSafe": 2.0,
+                    "maxAngleDegreesSafe": 15.0,
+                    "maxVerticalSpeedHard": 6.0,
+                    "maxHorizontalSpeedHard": 4.0,
+                    "maxAngleDegreesHard": 25.0,
+                    "requiredStableTime": 0.5
+                },
+                {
+                    "id": "pad_server_432",
+                    "start": {
+                        "x": 93.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 108.0,
+                        "y": 0.0
+                    },
+                    "maxVerticalSpeedPerfect": 1.5,
+                    "maxHorizontalSpeedPerfect": 1.0,
+                    "maxAngleDegreesPerfect": 8.0,
+                    "maxVerticalSpeedSafe": 3.0,
+                    "maxHorizontalSpeedSafe": 2.0,
+                    "maxAngleDegreesSafe": 15.0,
+                    "maxVerticalSpeedHard": 6.0,
+                    "maxHorizontalSpeedHard": 4.0,
+                    "maxAngleDegreesHard": 25.0,
+                    "requiredStableTime": 0.5
+                }
+            ],
+            "gravityFields": [],
+            "hazardZones": [],
+            "cargoSpawns": [],
+            "deliveryZones": [],
+            "checkpoints": [
+                {
+                    "index": 1,
+                    "position": {
+                        "x": 42.0,
+                        "y": -15.0
+                    },
+                    "radius": 8.0,
+                    "isPassed": false
+                }
+            ],
+            "maxDamagePercentAllowed": 100.0,
+            "minFuelRemainingPercent": 0.0,
+            "timeLimitSeconds": null
+        },
+        {
+            "id": 433,
+            "world": "GRAVEYARD",
+            "name": "Hull Fracture",
+            "objectiveType": "CARGO_DELIVERY",
+            "description": "Official downloadable server level 33 for Graveyard: Hull Fracture.",
+            "primaryGoalText": "Complete Hull Fracture objective",
+            "spawnPosition": {
+                "x": 0.0,
+                "y": 15.0
+            },
+            "spawnAngleRad": 0.0,
+            "targetPadId": null,
+            "allowedShips": [
+                "SCOUT",
+                "MULE",
+                "WASP",
+                "TITAN",
+                "PHANTOM"
+            ],
+            "defaultShip": "PHANTOM",
+            "physicsMode": "NEWTON",
+            "medalTargets": {
+                "bronzeSeconds": 104.0,
+                "silverSeconds": 72.799995,
+                "goldSeconds": 52.0,
+                "platinumSeconds": 39.0
+            },
+            "terrainSegments": [
+                {
+                    "start": {
+                        "x": -20.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 156.0,
+                        "y": 0.0
+                    },
+                    "surfaceType": "ROCK",
+                    "friction": 0.5,
+                    "restitution": 0.2
+                }
+            ],
+            "landingPads": [
+                {
+                    "id": "pad_start",
+                    "start": {
+                        "x": -5.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 5.0,
+                        "y": 0.0
+                    },
+                    "maxVerticalSpeedPerfect": 1.5,
+                    "maxHorizontalSpeedPerfect": 1.0,
+                    "maxAngleDegreesPerfect": 8.0,
+                    "maxVerticalSpeedSafe": 3.0,
+                    "maxHorizontalSpeedSafe": 2.0,
+                    "maxAngleDegreesSafe": 15.0,
+                    "maxVerticalSpeedHard": 6.0,
+                    "maxHorizontalSpeedHard": 4.0,
+                    "maxAngleDegreesHard": 25.0,
+                    "requiredStableTime": 0.5
+                },
+                {
+                    "id": "pad_server_433",
+                    "start": {
+                        "x": 96.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 111.0,
+                        "y": 0.0
+                    },
+                    "maxVerticalSpeedPerfect": 1.5,
+                    "maxHorizontalSpeedPerfect": 1.0,
+                    "maxAngleDegreesPerfect": 8.0,
+                    "maxVerticalSpeedSafe": 3.0,
+                    "maxHorizontalSpeedSafe": 2.0,
+                    "maxAngleDegreesSafe": 15.0,
+                    "maxVerticalSpeedHard": 6.0,
+                    "maxHorizontalSpeedHard": 4.0,
+                    "maxAngleDegreesHard": 25.0,
+                    "requiredStableTime": 0.5
+                }
+            ],
+            "gravityFields": [],
+            "hazardZones": [],
+            "cargoSpawns": [
+                {
+                    "id": "server_cargo_433",
+                    "body": {
+                        "position": {
+                            "x": 29.0,
+                            "y": 5.0
+                        },
+                        "velocity": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "angle": 0.0,
+                        "angularVelocity": 0.0,
+                        "mass": 500.0,
+                        "momentOfInertia": 2400.0,
+                        "isStatic": false
+                    },
+                    "radius": 1.0,
+                    "hazardType": "NONE",
+                    "maxIntegrity": 100.0,
+                    "currentIntegrity": 100.0,
+                    "isTethered": false,
+                    "isDelivered": false
+                }
+            ],
+            "deliveryZones": [
+                {
+                    "id": "server_drop_433",
+                    "center": {
+                        "x": 104.0,
+                        "y": 10.0
+                    },
+                    "radius": 10.0,
+                    "requiredCargoId": "server_cargo_433",
+                    "isFulfilled": false
+                }
+            ],
+            "checkpoints": [
+                {
+                    "index": 1,
+                    "position": {
+                        "x": 44.0,
+                        "y": -15.0
+                    },
+                    "radius": 8.0,
+                    "isPassed": false
+                }
+            ],
+            "maxDamagePercentAllowed": 100.0,
+            "minFuelRemainingPercent": 0.0,
+            "timeLimitSeconds": null
+        },
+        {
+            "id": 434,
+            "world": "GRAVEYARD",
+            "name": "Scrap Metal Corridor",
+            "objectiveType": "RACE_TIME_TRIAL",
+            "description": "Official downloadable server level 34 for Graveyard: Scrap Metal Corridor.",
+            "primaryGoalText": "Complete Scrap Metal Corridor objective",
+            "spawnPosition": {
+                "x": 0.0,
+                "y": 15.0
+            },
+            "spawnAngleRad": 0.0,
+            "targetPadId": "pad_server_434",
+            "allowedShips": [
+                "SCOUT",
+                "MULE",
+                "WASP",
+                "TITAN",
+                "PHANTOM"
+            ],
+            "defaultShip": "PHANTOM",
+            "physicsMode": "NEWTON",
+            "medalTargets": {
+                "bronzeSeconds": 111.0,
+                "silverSeconds": 77.7,
+                "goldSeconds": 55.5,
+                "platinumSeconds": 41.625
+            },
+            "terrainSegments": [
+                {
+                    "start": {
+                        "x": -20.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 159.0,
+                        "y": 0.0
+                    },
+                    "surfaceType": "ROCK",
+                    "friction": 0.5,
+                    "restitution": 0.2
+                }
+            ],
+            "landingPads": [
+                {
+                    "id": "pad_start",
+                    "start": {
+                        "x": -5.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 5.0,
+                        "y": 0.0
+                    },
+                    "maxVerticalSpeedPerfect": 1.5,
+                    "maxHorizontalSpeedPerfect": 1.0,
+                    "maxAngleDegreesPerfect": 8.0,
+                    "maxVerticalSpeedSafe": 3.0,
+                    "maxHorizontalSpeedSafe": 2.0,
+                    "maxAngleDegreesSafe": 15.0,
+                    "maxVerticalSpeedHard": 6.0,
+                    "maxHorizontalSpeedHard": 4.0,
+                    "maxAngleDegreesHard": 25.0,
+                    "requiredStableTime": 0.5
+                },
+                {
+                    "id": "pad_server_434",
+                    "start": {
+                        "x": 99.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 114.0,
+                        "y": 0.0
+                    },
+                    "maxVerticalSpeedPerfect": 1.5,
+                    "maxHorizontalSpeedPerfect": 1.0,
+                    "maxAngleDegreesPerfect": 8.0,
+                    "maxVerticalSpeedSafe": 3.0,
+                    "maxHorizontalSpeedSafe": 2.0,
+                    "maxAngleDegreesSafe": 15.0,
+                    "maxVerticalSpeedHard": 6.0,
+                    "maxHorizontalSpeedHard": 4.0,
+                    "maxAngleDegreesHard": 25.0,
+                    "requiredStableTime": 0.5
+                }
+            ],
+            "gravityFields": [],
+            "hazardZones": [],
+            "cargoSpawns": [],
+            "deliveryZones": [],
+            "checkpoints": [
+                {
+                    "index": 1,
+                    "position": {
+                        "x": 46.0,
+                        "y": -15.0
+                    },
+                    "radius": 8.0,
+                    "isPassed": false
+                }
+            ],
+            "maxDamagePercentAllowed": 100.0,
+            "minFuelRemainingPercent": 0.0,
+            "timeLimitSeconds": null
+        },
+        {
+            "id": 435,
+            "world": "GRAVEYARD",
+            "name": "Zero-G Salvage",
+            "objectiveType": "PRECISION",
+            "description": "Official downloadable server level 35 for Graveyard: Zero-G Salvage.",
+            "primaryGoalText": "Complete Zero-G Salvage objective",
+            "spawnPosition": {
+                "x": 0.0,
+                "y": 15.0
+            },
+            "spawnAngleRad": 0.0,
+            "targetPadId": "pad_server_435",
+            "allowedShips": [
+                "SCOUT",
+                "MULE",
+                "WASP",
+                "TITAN",
+                "PHANTOM"
+            ],
+            "defaultShip": "PHANTOM",
+            "physicsMode": "NEWTON",
+            "medalTargets": {
+                "bronzeSeconds": 118.0,
+                "silverSeconds": 82.6,
+                "goldSeconds": 59.0,
+                "platinumSeconds": 44.25
+            },
+            "terrainSegments": [
+                {
+                    "start": {
+                        "x": -20.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 162.0,
+                        "y": 0.0
+                    },
+                    "surfaceType": "ROCK",
+                    "friction": 0.5,
+                    "restitution": 0.2
+                }
+            ],
+            "landingPads": [
+                {
+                    "id": "pad_start",
+                    "start": {
+                        "x": -5.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 5.0,
+                        "y": 0.0
+                    },
+                    "maxVerticalSpeedPerfect": 1.5,
+                    "maxHorizontalSpeedPerfect": 1.0,
+                    "maxAngleDegreesPerfect": 8.0,
+                    "maxVerticalSpeedSafe": 3.0,
+                    "maxHorizontalSpeedSafe": 2.0,
+                    "maxAngleDegreesSafe": 15.0,
+                    "maxVerticalSpeedHard": 6.0,
+                    "maxHorizontalSpeedHard": 4.0,
+                    "maxAngleDegreesHard": 25.0,
+                    "requiredStableTime": 0.5
+                },
+                {
+                    "id": "pad_server_435",
+                    "start": {
+                        "x": 102.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 117.0,
+                        "y": 0.0
+                    },
+                    "maxVerticalSpeedPerfect": 1.5,
+                    "maxHorizontalSpeedPerfect": 1.0,
+                    "maxAngleDegreesPerfect": 8.0,
+                    "maxVerticalSpeedSafe": 3.0,
+                    "maxHorizontalSpeedSafe": 2.0,
+                    "maxAngleDegreesSafe": 15.0,
+                    "maxVerticalSpeedHard": 6.0,
+                    "maxHorizontalSpeedHard": 4.0,
+                    "maxAngleDegreesHard": 25.0,
+                    "requiredStableTime": 0.5
+                }
+            ],
+            "gravityFields": [],
+            "hazardZones": [],
+            "cargoSpawns": [],
+            "deliveryZones": [],
+            "checkpoints": [
+                {
+                    "index": 1,
+                    "position": {
+                        "x": 48.0,
+                        "y": -15.0
+                    },
+                    "radius": 8.0,
+                    "isPassed": false
+                }
+            ],
+            "maxDamagePercentAllowed": 100.0,
+            "minFuelRemainingPercent": 0.0,
+            "timeLimitSeconds": null
+        },
+        {
+            "id": 436,
+            "world": "GRAVEYARD",
+            "name": "Orbital Ring Sprint",
+            "objectiveType": "SURVIVAL",
+            "description": "Official downloadable server level 36 for Graveyard: Orbital Ring Sprint.",
+            "primaryGoalText": "Complete Orbital Ring Sprint objective",
+            "spawnPosition": {
+                "x": 0.0,
+                "y": 15.0
+            },
+            "spawnAngleRad": 0.0,
+            "targetPadId": "pad_server_436",
+            "allowedShips": [
+                "SCOUT",
+                "MULE",
+                "WASP",
+                "TITAN",
+                "PHANTOM"
+            ],
+            "defaultShip": "PHANTOM",
+            "physicsMode": "NEWTON",
+            "medalTargets": {
+                "bronzeSeconds": 125.0,
+                "silverSeconds": 87.5,
+                "goldSeconds": 62.5,
+                "platinumSeconds": 46.875
+            },
+            "terrainSegments": [
+                {
+                    "start": {
+                        "x": -20.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 165.0,
+                        "y": 0.0
+                    },
+                    "surfaceType": "ROCK",
+                    "friction": 0.5,
+                    "restitution": 0.2
+                }
+            ],
+            "landingPads": [
+                {
+                    "id": "pad_start",
+                    "start": {
+                        "x": -5.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 5.0,
+                        "y": 0.0
+                    },
+                    "maxVerticalSpeedPerfect": 1.5,
+                    "maxHorizontalSpeedPerfect": 1.0,
+                    "maxAngleDegreesPerfect": 8.0,
+                    "maxVerticalSpeedSafe": 3.0,
+                    "maxHorizontalSpeedSafe": 2.0,
+                    "maxAngleDegreesSafe": 15.0,
+                    "maxVerticalSpeedHard": 6.0,
+                    "maxHorizontalSpeedHard": 4.0,
+                    "maxAngleDegreesHard": 25.0,
+                    "requiredStableTime": 0.5
+                },
+                {
+                    "id": "pad_server_436",
+                    "start": {
+                        "x": 105.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 120.0,
+                        "y": 0.0
+                    },
+                    "maxVerticalSpeedPerfect": 1.5,
+                    "maxHorizontalSpeedPerfect": 1.0,
+                    "maxAngleDegreesPerfect": 8.0,
+                    "maxVerticalSpeedSafe": 3.0,
+                    "maxHorizontalSpeedSafe": 2.0,
+                    "maxAngleDegreesSafe": 15.0,
+                    "maxVerticalSpeedHard": 6.0,
+                    "maxHorizontalSpeedHard": 4.0,
+                    "maxAngleDegreesHard": 25.0,
+                    "requiredStableTime": 0.5
+                }
+            ],
+            "gravityFields": [],
+            "hazardZones": [],
+            "cargoSpawns": [],
+            "deliveryZones": [],
+            "checkpoints": [
+                {
+                    "index": 1,
+                    "position": {
+                        "x": 50.0,
+                        "y": -15.0
+                    },
+                    "radius": 8.0,
+                    "isPassed": false
+                }
+            ],
+            "maxDamagePercentAllowed": 100.0,
+            "minFuelRemainingPercent": 0.0,
+            "timeLimitSeconds": null
+        },
+        {
+            "id": 437,
+            "world": "GRAVEYARD",
+            "name": "Wreckage Pass",
+            "objectiveType": "RESCUE",
+            "description": "Official downloadable server level 37 for Graveyard: Wreckage Pass.",
+            "primaryGoalText": "Complete Wreckage Pass objective",
+            "spawnPosition": {
+                "x": 0.0,
+                "y": 15.0
+            },
+            "spawnAngleRad": 0.0,
+            "targetPadId": null,
+            "allowedShips": [
+                "SCOUT",
+                "MULE",
+                "WASP",
+                "TITAN",
+                "PHANTOM"
+            ],
+            "defaultShip": "PHANTOM",
+            "physicsMode": "NEWTON",
+            "medalTargets": {
+                "bronzeSeconds": 132.0,
+                "silverSeconds": 92.4,
+                "goldSeconds": 66.0,
+                "platinumSeconds": 49.5
+            },
+            "terrainSegments": [
+                {
+                    "start": {
+                        "x": -20.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 168.0,
+                        "y": 0.0
+                    },
+                    "surfaceType": "ROCK",
+                    "friction": 0.5,
+                    "restitution": 0.2
+                }
+            ],
+            "landingPads": [
+                {
+                    "id": "pad_start",
+                    "start": {
+                        "x": -5.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 5.0,
+                        "y": 0.0
+                    },
+                    "maxVerticalSpeedPerfect": 1.5,
+                    "maxHorizontalSpeedPerfect": 1.0,
+                    "maxAngleDegreesPerfect": 8.0,
+                    "maxVerticalSpeedSafe": 3.0,
+                    "maxHorizontalSpeedSafe": 2.0,
+                    "maxAngleDegreesSafe": 15.0,
+                    "maxVerticalSpeedHard": 6.0,
+                    "maxHorizontalSpeedHard": 4.0,
+                    "maxAngleDegreesHard": 25.0,
+                    "requiredStableTime": 0.5
+                },
+                {
+                    "id": "pad_server_437",
+                    "start": {
+                        "x": 108.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 123.0,
+                        "y": 0.0
+                    },
+                    "maxVerticalSpeedPerfect": 1.5,
+                    "maxHorizontalSpeedPerfect": 1.0,
+                    "maxAngleDegreesPerfect": 8.0,
+                    "maxVerticalSpeedSafe": 3.0,
+                    "maxHorizontalSpeedSafe": 2.0,
+                    "maxAngleDegreesSafe": 15.0,
+                    "maxVerticalSpeedHard": 6.0,
+                    "maxHorizontalSpeedHard": 4.0,
+                    "maxAngleDegreesHard": 25.0,
+                    "requiredStableTime": 0.5
+                }
+            ],
+            "gravityFields": [],
+            "hazardZones": [],
+            "cargoSpawns": [
+                {
+                    "id": "server_cargo_437",
+                    "body": {
+                        "position": {
+                            "x": 37.0,
+                            "y": 5.0
+                        },
+                        "velocity": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "angle": 0.0,
+                        "angularVelocity": 0.0,
+                        "mass": 500.0,
+                        "momentOfInertia": 2400.0,
+                        "isStatic": false
+                    },
+                    "radius": 1.0,
+                    "hazardType": "NONE",
+                    "maxIntegrity": 100.0,
+                    "currentIntegrity": 100.0,
+                    "isTethered": false,
+                    "isDelivered": false
+                }
+            ],
+            "deliveryZones": [
+                {
+                    "id": "server_drop_437",
+                    "center": {
+                        "x": 112.0,
+                        "y": 10.0
+                    },
+                    "radius": 10.0,
+                    "requiredCargoId": "server_cargo_437",
+                    "isFulfilled": false
+                }
+            ],
+            "checkpoints": [
+                {
+                    "index": 1,
+                    "position": {
+                        "x": 52.0,
+                        "y": -15.0
+                    },
+                    "radius": 8.0,
+                    "isPassed": false
+                }
+            ],
+            "maxDamagePercentAllowed": 100.0,
+            "minFuelRemainingPercent": 0.0,
+            "timeLimitSeconds": null
+        },
+        {
+            "id": 438,
+            "world": "GRAVEYARD",
+            "name": "Debris Field B",
+            "objectiveType": "NAVIGATION",
+            "description": "Official downloadable server level 38 for Graveyard: Debris Field B.",
+            "primaryGoalText": "Complete Debris Field B objective",
+            "spawnPosition": {
+                "x": 0.0,
+                "y": 15.0
+            },
+            "spawnAngleRad": 0.0,
+            "targetPadId": "pad_server_438",
+            "allowedShips": [
+                "SCOUT",
+                "MULE",
+                "WASP",
+                "TITAN",
+                "PHANTOM"
+            ],
+            "defaultShip": "PHANTOM",
+            "physicsMode": "NEWTON",
+            "medalTargets": {
+                "bronzeSeconds": 139.0,
+                "silverSeconds": 97.299995,
+                "goldSeconds": 69.5,
+                "platinumSeconds": 52.125
+            },
+            "terrainSegments": [
+                {
+                    "start": {
+                        "x": -20.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 171.0,
+                        "y": 0.0
+                    },
+                    "surfaceType": "ROCK",
+                    "friction": 0.5,
+                    "restitution": 0.2
+                }
+            ],
+            "landingPads": [
+                {
+                    "id": "pad_start",
+                    "start": {
+                        "x": -5.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 5.0,
+                        "y": 0.0
+                    },
+                    "maxVerticalSpeedPerfect": 1.5,
+                    "maxHorizontalSpeedPerfect": 1.0,
+                    "maxAngleDegreesPerfect": 8.0,
+                    "maxVerticalSpeedSafe": 3.0,
+                    "maxHorizontalSpeedSafe": 2.0,
+                    "maxAngleDegreesSafe": 15.0,
+                    "maxVerticalSpeedHard": 6.0,
+                    "maxHorizontalSpeedHard": 4.0,
+                    "maxAngleDegreesHard": 25.0,
+                    "requiredStableTime": 0.5
+                },
+                {
+                    "id": "pad_server_438",
+                    "start": {
+                        "x": 111.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 126.0,
+                        "y": 0.0
+                    },
+                    "maxVerticalSpeedPerfect": 1.5,
+                    "maxHorizontalSpeedPerfect": 1.0,
+                    "maxAngleDegreesPerfect": 8.0,
+                    "maxVerticalSpeedSafe": 3.0,
+                    "maxHorizontalSpeedSafe": 2.0,
+                    "maxAngleDegreesSafe": 15.0,
+                    "maxVerticalSpeedHard": 6.0,
+                    "maxHorizontalSpeedHard": 4.0,
+                    "maxAngleDegreesHard": 25.0,
+                    "requiredStableTime": 0.5
+                }
+            ],
+            "gravityFields": [],
+            "hazardZones": [],
+            "cargoSpawns": [],
+            "deliveryZones": [],
+            "checkpoints": [
+                {
+                    "index": 1,
+                    "position": {
+                        "x": 54.0,
+                        "y": -15.0
+                    },
+                    "radius": 8.0,
+                    "isPassed": false
+                }
+            ],
+            "maxDamagePercentAllowed": 100.0,
+            "minFuelRemainingPercent": 0.0,
+            "timeLimitSeconds": null
+        },
+        {
+            "id": 439,
+            "world": "GRAVEYARD",
+            "name": "Spinning Habitat",
+            "objectiveType": "PRECISION",
+            "description": "Official downloadable server level 39 for Graveyard: Spinning Habitat.",
+            "primaryGoalText": "Complete Spinning Habitat objective",
+            "spawnPosition": {
+                "x": 0.0,
+                "y": 15.0
+            },
+            "spawnAngleRad": 0.0,
+            "targetPadId": "pad_server_439",
+            "allowedShips": [
+                "SCOUT",
+                "MULE",
+                "WASP",
+                "TITAN",
+                "PHANTOM"
+            ],
+            "defaultShip": "PHANTOM",
+            "physicsMode": "NEWTON",
+            "medalTargets": {
+                "bronzeSeconds": 146.0,
+                "silverSeconds": 102.2,
+                "goldSeconds": 73.0,
+                "platinumSeconds": 54.75
+            },
+            "terrainSegments": [
+                {
+                    "start": {
+                        "x": -20.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 174.0,
+                        "y": 0.0
+                    },
+                    "surfaceType": "ROCK",
+                    "friction": 0.5,
+                    "restitution": 0.2
+                }
+            ],
+            "landingPads": [
+                {
+                    "id": "pad_start",
+                    "start": {
+                        "x": -5.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 5.0,
+                        "y": 0.0
+                    },
+                    "maxVerticalSpeedPerfect": 1.5,
+                    "maxHorizontalSpeedPerfect": 1.0,
+                    "maxAngleDegreesPerfect": 8.0,
+                    "maxVerticalSpeedSafe": 3.0,
+                    "maxHorizontalSpeedSafe": 2.0,
+                    "maxAngleDegreesSafe": 15.0,
+                    "maxVerticalSpeedHard": 6.0,
+                    "maxHorizontalSpeedHard": 4.0,
+                    "maxAngleDegreesHard": 25.0,
+                    "requiredStableTime": 0.5
+                },
+                {
+                    "id": "pad_server_439",
+                    "start": {
+                        "x": 114.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 129.0,
+                        "y": 0.0
+                    },
+                    "maxVerticalSpeedPerfect": 1.5,
+                    "maxHorizontalSpeedPerfect": 1.0,
+                    "maxAngleDegreesPerfect": 8.0,
+                    "maxVerticalSpeedSafe": 3.0,
+                    "maxHorizontalSpeedSafe": 2.0,
+                    "maxAngleDegreesSafe": 15.0,
+                    "maxVerticalSpeedHard": 6.0,
+                    "maxHorizontalSpeedHard": 4.0,
+                    "maxAngleDegreesHard": 25.0,
+                    "requiredStableTime": 0.5
+                }
+            ],
+            "gravityFields": [],
+            "hazardZones": [],
+            "cargoSpawns": [],
+            "deliveryZones": [],
+            "checkpoints": [
+                {
+                    "index": 1,
+                    "position": {
+                        "x": 56.0,
+                        "y": -15.0
+                    },
+                    "radius": 8.0,
+                    "isPassed": false
+                }
+            ],
+            "maxDamagePercentAllowed": 100.0,
+            "minFuelRemainingPercent": 0.0,
+            "timeLimitSeconds": null
+        },
+        {
+            "id": 440,
+            "world": "GRAVEYARD",
+            "name": "Magnetic Storm B",
+            "objectiveType": "RACE_TIME_TRIAL",
+            "description": "Official downloadable server level 40 for Graveyard: Magnetic Storm B.",
+            "primaryGoalText": "Complete Magnetic Storm B objective",
+            "spawnPosition": {
+                "x": 0.0,
+                "y": 15.0
+            },
+            "spawnAngleRad": 0.0,
+            "targetPadId": "pad_server_440",
+            "allowedShips": [
+                "SCOUT",
+                "MULE",
+                "WASP",
+                "TITAN",
+                "PHANTOM"
+            ],
+            "defaultShip": "PHANTOM",
+            "physicsMode": "NEWTON",
+            "medalTargets": {
+                "bronzeSeconds": 153.0,
+                "silverSeconds": 107.1,
+                "goldSeconds": 76.5,
+                "platinumSeconds": 57.375
+            },
+            "terrainSegments": [
+                {
+                    "start": {
+                        "x": -20.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 177.0,
+                        "y": 0.0
+                    },
+                    "surfaceType": "ROCK",
+                    "friction": 0.5,
+                    "restitution": 0.2
+                }
+            ],
+            "landingPads": [
+                {
+                    "id": "pad_start",
+                    "start": {
+                        "x": -5.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 5.0,
+                        "y": 0.0
+                    },
+                    "maxVerticalSpeedPerfect": 1.5,
+                    "maxHorizontalSpeedPerfect": 1.0,
+                    "maxAngleDegreesPerfect": 8.0,
+                    "maxVerticalSpeedSafe": 3.0,
+                    "maxHorizontalSpeedSafe": 2.0,
+                    "maxAngleDegreesSafe": 15.0,
+                    "maxVerticalSpeedHard": 6.0,
+                    "maxHorizontalSpeedHard": 4.0,
+                    "maxAngleDegreesHard": 25.0,
+                    "requiredStableTime": 0.5
+                },
+                {
+                    "id": "pad_server_440",
+                    "start": {
+                        "x": 117.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 132.0,
+                        "y": 0.0
+                    },
+                    "maxVerticalSpeedPerfect": 1.5,
+                    "maxHorizontalSpeedPerfect": 1.0,
+                    "maxAngleDegreesPerfect": 8.0,
+                    "maxVerticalSpeedSafe": 3.0,
+                    "maxHorizontalSpeedSafe": 2.0,
+                    "maxAngleDegreesSafe": 15.0,
+                    "maxVerticalSpeedHard": 6.0,
+                    "maxHorizontalSpeedHard": 4.0,
+                    "maxAngleDegreesHard": 25.0,
+                    "requiredStableTime": 0.5
+                }
+            ],
+            "gravityFields": [],
+            "hazardZones": [],
+            "cargoSpawns": [],
+            "deliveryZones": [],
+            "checkpoints": [
+                {
+                    "index": 1,
+                    "position": {
+                        "x": 58.0,
+                        "y": -15.0
+                    },
+                    "radius": 8.0,
+                    "isPassed": false
+                }
+            ],
+            "maxDamagePercentAllowed": 100.0,
+            "minFuelRemainingPercent": 0.0,
+            "timeLimitSeconds": null
+        },
+        {
+            "id": 441,
+            "world": "GRAVEYARD",
+            "name": "Astro Trench",
+            "objectiveType": "CARGO_DELIVERY",
+            "description": "Official downloadable server level 41 for Graveyard: Astro Trench.",
+            "primaryGoalText": "Complete Astro Trench objective",
+            "spawnPosition": {
+                "x": 0.0,
+                "y": 15.0
+            },
+            "spawnAngleRad": 0.0,
+            "targetPadId": null,
+            "allowedShips": [
+                "SCOUT",
+                "MULE",
+                "WASP",
+                "TITAN",
+                "PHANTOM"
+            ],
+            "defaultShip": "PHANTOM",
+            "physicsMode": "NEWTON",
+            "medalTargets": {
+                "bronzeSeconds": 160.0,
+                "silverSeconds": 112.0,
+                "goldSeconds": 80.0,
+                "platinumSeconds": 60.0
+            },
+            "terrainSegments": [
+                {
+                    "start": {
+                        "x": -20.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 180.0,
+                        "y": 0.0
+                    },
+                    "surfaceType": "ROCK",
+                    "friction": 0.5,
+                    "restitution": 0.2
+                }
+            ],
+            "landingPads": [
+                {
+                    "id": "pad_start",
+                    "start": {
+                        "x": -5.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 5.0,
+                        "y": 0.0
+                    },
+                    "maxVerticalSpeedPerfect": 1.5,
+                    "maxHorizontalSpeedPerfect": 1.0,
+                    "maxAngleDegreesPerfect": 8.0,
+                    "maxVerticalSpeedSafe": 3.0,
+                    "maxHorizontalSpeedSafe": 2.0,
+                    "maxAngleDegreesSafe": 15.0,
+                    "maxVerticalSpeedHard": 6.0,
+                    "maxHorizontalSpeedHard": 4.0,
+                    "maxAngleDegreesHard": 25.0,
+                    "requiredStableTime": 0.5
+                },
+                {
+                    "id": "pad_server_441",
+                    "start": {
+                        "x": 120.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 135.0,
+                        "y": 0.0
+                    },
+                    "maxVerticalSpeedPerfect": 1.5,
+                    "maxHorizontalSpeedPerfect": 1.0,
+                    "maxAngleDegreesPerfect": 8.0,
+                    "maxVerticalSpeedSafe": 3.0,
+                    "maxHorizontalSpeedSafe": 2.0,
+                    "maxAngleDegreesSafe": 15.0,
+                    "maxVerticalSpeedHard": 6.0,
+                    "maxHorizontalSpeedHard": 4.0,
+                    "maxAngleDegreesHard": 25.0,
+                    "requiredStableTime": 0.5
+                }
+            ],
+            "gravityFields": [],
+            "hazardZones": [],
+            "cargoSpawns": [
+                {
+                    "id": "server_cargo_441",
+                    "body": {
+                        "position": {
+                            "x": 45.0,
+                            "y": 5.0
+                        },
+                        "velocity": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "angle": 0.0,
+                        "angularVelocity": 0.0,
+                        "mass": 500.0,
+                        "momentOfInertia": 2400.0,
+                        "isStatic": false
+                    },
+                    "radius": 1.0,
+                    "hazardType": "NONE",
+                    "maxIntegrity": 100.0,
+                    "currentIntegrity": 100.0,
+                    "isTethered": false,
+                    "isDelivered": false
+                }
+            ],
+            "deliveryZones": [
+                {
+                    "id": "server_drop_441",
+                    "center": {
+                        "x": 120.0,
+                        "y": 10.0
+                    },
+                    "radius": 10.0,
+                    "requiredCargoId": "server_cargo_441",
+                    "isFulfilled": false
+                }
+            ],
+            "checkpoints": [
+                {
+                    "index": 1,
+                    "position": {
+                        "x": 60.0,
+                        "y": -15.0
+                    },
+                    "radius": 8.0,
+                    "isPassed": false
+                }
+            ],
+            "maxDamagePercentAllowed": 100.0,
+            "minFuelRemainingPercent": 0.0,
+            "timeLimitSeconds": null
+        },
+        {
+            "id": 442,
+            "world": "GRAVEYARD",
+            "name": "Radiation Core",
+            "objectiveType": "LANDING",
+            "description": "Official downloadable server level 42 for Graveyard: Radiation Core.",
+            "primaryGoalText": "Complete Radiation Core objective",
+            "spawnPosition": {
+                "x": 0.0,
+                "y": 15.0
+            },
+            "spawnAngleRad": 0.0,
+            "targetPadId": "pad_server_442",
+            "allowedShips": [
+                "SCOUT",
+                "MULE",
+                "WASP",
+                "TITAN",
+                "PHANTOM"
+            ],
+            "defaultShip": "PHANTOM",
+            "physicsMode": "NEWTON",
+            "medalTargets": {
+                "bronzeSeconds": 167.0,
+                "silverSeconds": 116.9,
+                "goldSeconds": 83.5,
+                "platinumSeconds": 62.625
+            },
+            "terrainSegments": [
+                {
+                    "start": {
+                        "x": -20.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 183.0,
+                        "y": 0.0
+                    },
+                    "surfaceType": "ROCK",
+                    "friction": 0.5,
+                    "restitution": 0.2
+                }
+            ],
+            "landingPads": [
+                {
+                    "id": "pad_start",
+                    "start": {
+                        "x": -5.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 5.0,
+                        "y": 0.0
+                    },
+                    "maxVerticalSpeedPerfect": 1.5,
+                    "maxHorizontalSpeedPerfect": 1.0,
+                    "maxAngleDegreesPerfect": 8.0,
+                    "maxVerticalSpeedSafe": 3.0,
+                    "maxHorizontalSpeedSafe": 2.0,
+                    "maxAngleDegreesSafe": 15.0,
+                    "maxVerticalSpeedHard": 6.0,
+                    "maxHorizontalSpeedHard": 4.0,
+                    "maxAngleDegreesHard": 25.0,
+                    "requiredStableTime": 0.5
+                },
+                {
+                    "id": "pad_server_442",
+                    "start": {
+                        "x": 123.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 138.0,
+                        "y": 0.0
+                    },
+                    "maxVerticalSpeedPerfect": 1.5,
+                    "maxHorizontalSpeedPerfect": 1.0,
+                    "maxAngleDegreesPerfect": 8.0,
+                    "maxVerticalSpeedSafe": 3.0,
+                    "maxHorizontalSpeedSafe": 2.0,
+                    "maxAngleDegreesSafe": 15.0,
+                    "maxVerticalSpeedHard": 6.0,
+                    "maxHorizontalSpeedHard": 4.0,
+                    "maxAngleDegreesHard": 25.0,
+                    "requiredStableTime": 0.5
+                }
+            ],
+            "gravityFields": [],
+            "hazardZones": [],
+            "cargoSpawns": [],
+            "deliveryZones": [],
+            "checkpoints": [
+                {
+                    "index": 1,
+                    "position": {
+                        "x": 62.0,
+                        "y": -15.0
+                    },
+                    "radius": 8.0,
+                    "isPassed": false
+                }
+            ],
+            "maxDamagePercentAllowed": 100.0,
+            "minFuelRemainingPercent": 0.0,
+            "timeLimitSeconds": null
+        },
+        {
+            "id": 443,
+            "world": "GRAVEYARD",
+            "name": "Space Dock B",
+            "objectiveType": "SURVIVAL",
+            "description": "Official downloadable server level 43 for Graveyard: Space Dock B.",
+            "primaryGoalText": "Complete Space Dock B objective",
+            "spawnPosition": {
+                "x": 0.0,
+                "y": 15.0
+            },
+            "spawnAngleRad": 0.0,
+            "targetPadId": "pad_server_443",
+            "allowedShips": [
+                "SCOUT",
+                "MULE",
+                "WASP",
+                "TITAN",
+                "PHANTOM"
+            ],
+            "defaultShip": "PHANTOM",
+            "physicsMode": "NEWTON",
+            "medalTargets": {
+                "bronzeSeconds": 174.0,
+                "silverSeconds": 121.799995,
+                "goldSeconds": 87.0,
+                "platinumSeconds": 65.25
+            },
+            "terrainSegments": [
+                {
+                    "start": {
+                        "x": -20.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 186.0,
+                        "y": 0.0
+                    },
+                    "surfaceType": "ROCK",
+                    "friction": 0.5,
+                    "restitution": 0.2
+                }
+            ],
+            "landingPads": [
+                {
+                    "id": "pad_start",
+                    "start": {
+                        "x": -5.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 5.0,
+                        "y": 0.0
+                    },
+                    "maxVerticalSpeedPerfect": 1.5,
+                    "maxHorizontalSpeedPerfect": 1.0,
+                    "maxAngleDegreesPerfect": 8.0,
+                    "maxVerticalSpeedSafe": 3.0,
+                    "maxHorizontalSpeedSafe": 2.0,
+                    "maxAngleDegreesSafe": 15.0,
+                    "maxVerticalSpeedHard": 6.0,
+                    "maxHorizontalSpeedHard": 4.0,
+                    "maxAngleDegreesHard": 25.0,
+                    "requiredStableTime": 0.5
+                },
+                {
+                    "id": "pad_server_443",
+                    "start": {
+                        "x": 126.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 141.0,
+                        "y": 0.0
+                    },
+                    "maxVerticalSpeedPerfect": 1.5,
+                    "maxHorizontalSpeedPerfect": 1.0,
+                    "maxAngleDegreesPerfect": 8.0,
+                    "maxVerticalSpeedSafe": 3.0,
+                    "maxHorizontalSpeedSafe": 2.0,
+                    "maxAngleDegreesSafe": 15.0,
+                    "maxVerticalSpeedHard": 6.0,
+                    "maxHorizontalSpeedHard": 4.0,
+                    "maxAngleDegreesHard": 25.0,
+                    "requiredStableTime": 0.5
+                }
+            ],
+            "gravityFields": [],
+            "hazardZones": [],
+            "cargoSpawns": [],
+            "deliveryZones": [],
+            "checkpoints": [
+                {
+                    "index": 1,
+                    "position": {
+                        "x": 64.0,
+                        "y": -15.0
+                    },
+                    "radius": 8.0,
+                    "isPassed": false
+                }
+            ],
+            "maxDamagePercentAllowed": 100.0,
+            "minFuelRemainingPercent": 0.0,
+            "timeLimitSeconds": null
+        },
+        {
+            "id": 444,
+            "world": "GRAVEYARD",
+            "name": "Trash Gate",
+            "objectiveType": "NAVIGATION",
+            "description": "Official downloadable server level 44 for Graveyard: Trash Gate.",
+            "primaryGoalText": "Complete Trash Gate objective",
+            "spawnPosition": {
+                "x": 0.0,
+                "y": 15.0
+            },
+            "spawnAngleRad": 0.0,
+            "targetPadId": "pad_server_444",
+            "allowedShips": [
+                "SCOUT",
+                "MULE",
+                "WASP",
+                "TITAN",
+                "PHANTOM"
+            ],
+            "defaultShip": "PHANTOM",
+            "physicsMode": "NEWTON",
+            "medalTargets": {
+                "bronzeSeconds": 181.0,
+                "silverSeconds": 126.7,
+                "goldSeconds": 90.5,
+                "platinumSeconds": 67.875
+            },
+            "terrainSegments": [
+                {
+                    "start": {
+                        "x": -20.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 189.0,
+                        "y": 0.0
+                    },
+                    "surfaceType": "ROCK",
+                    "friction": 0.5,
+                    "restitution": 0.2
+                }
+            ],
+            "landingPads": [
+                {
+                    "id": "pad_start",
+                    "start": {
+                        "x": -5.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 5.0,
+                        "y": 0.0
+                    },
+                    "maxVerticalSpeedPerfect": 1.5,
+                    "maxHorizontalSpeedPerfect": 1.0,
+                    "maxAngleDegreesPerfect": 8.0,
+                    "maxVerticalSpeedSafe": 3.0,
+                    "maxHorizontalSpeedSafe": 2.0,
+                    "maxAngleDegreesSafe": 15.0,
+                    "maxVerticalSpeedHard": 6.0,
+                    "maxHorizontalSpeedHard": 4.0,
+                    "maxAngleDegreesHard": 25.0,
+                    "requiredStableTime": 0.5
+                },
+                {
+                    "id": "pad_server_444",
+                    "start": {
+                        "x": 129.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 144.0,
+                        "y": 0.0
+                    },
+                    "maxVerticalSpeedPerfect": 1.5,
+                    "maxHorizontalSpeedPerfect": 1.0,
+                    "maxAngleDegreesPerfect": 8.0,
+                    "maxVerticalSpeedSafe": 3.0,
+                    "maxHorizontalSpeedSafe": 2.0,
+                    "maxAngleDegreesSafe": 15.0,
+                    "maxVerticalSpeedHard": 6.0,
+                    "maxHorizontalSpeedHard": 4.0,
+                    "maxAngleDegreesHard": 25.0,
+                    "requiredStableTime": 0.5
+                }
+            ],
+            "gravityFields": [],
+            "hazardZones": [],
+            "cargoSpawns": [],
+            "deliveryZones": [],
+            "checkpoints": [
+                {
+                    "index": 1,
+                    "position": {
+                        "x": 66.0,
+                        "y": -15.0
+                    },
+                    "radius": 8.0,
+                    "isPassed": false
+                }
+            ],
+            "maxDamagePercentAllowed": 100.0,
+            "minFuelRemainingPercent": 0.0,
+            "timeLimitSeconds": null
+        },
+        {
+            "id": 445,
+            "world": "GRAVEYARD",
+            "name": "Orbital Slingshot",
+            "objectiveType": "PRECISION",
+            "description": "Official downloadable server level 45 for Graveyard: Orbital Slingshot.",
+            "primaryGoalText": "Complete Orbital Slingshot objective",
+            "spawnPosition": {
+                "x": 0.0,
+                "y": 15.0
+            },
+            "spawnAngleRad": 0.0,
+            "targetPadId": "pad_server_445",
+            "allowedShips": [
+                "SCOUT",
+                "MULE",
+                "WASP",
+                "TITAN",
+                "PHANTOM"
+            ],
+            "defaultShip": "PHANTOM",
+            "physicsMode": "NEWTON",
+            "medalTargets": {
+                "bronzeSeconds": 188.0,
+                "silverSeconds": 131.59999,
+                "goldSeconds": 94.0,
+                "platinumSeconds": 70.5
+            },
+            "terrainSegments": [
+                {
+                    "start": {
+                        "x": -20.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 192.0,
+                        "y": 0.0
+                    },
+                    "surfaceType": "ROCK",
+                    "friction": 0.5,
+                    "restitution": 0.2
+                }
+            ],
+            "landingPads": [
+                {
+                    "id": "pad_start",
+                    "start": {
+                        "x": -5.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 5.0,
+                        "y": 0.0
+                    },
+                    "maxVerticalSpeedPerfect": 1.5,
+                    "maxHorizontalSpeedPerfect": 1.0,
+                    "maxAngleDegreesPerfect": 8.0,
+                    "maxVerticalSpeedSafe": 3.0,
+                    "maxHorizontalSpeedSafe": 2.0,
+                    "maxAngleDegreesSafe": 15.0,
+                    "maxVerticalSpeedHard": 6.0,
+                    "maxHorizontalSpeedHard": 4.0,
+                    "maxAngleDegreesHard": 25.0,
+                    "requiredStableTime": 0.5
+                },
+                {
+                    "id": "pad_server_445",
+                    "start": {
+                        "x": 132.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 147.0,
+                        "y": 0.0
+                    },
+                    "maxVerticalSpeedPerfect": 1.5,
+                    "maxHorizontalSpeedPerfect": 1.0,
+                    "maxAngleDegreesPerfect": 8.0,
+                    "maxVerticalSpeedSafe": 3.0,
+                    "maxHorizontalSpeedSafe": 2.0,
+                    "maxAngleDegreesSafe": 15.0,
+                    "maxVerticalSpeedHard": 6.0,
+                    "maxHorizontalSpeedHard": 4.0,
+                    "maxAngleDegreesHard": 25.0,
+                    "requiredStableTime": 0.5
+                }
+            ],
+            "gravityFields": [],
+            "hazardZones": [],
+            "cargoSpawns": [],
+            "deliveryZones": [],
+            "checkpoints": [
+                {
+                    "index": 1,
+                    "position": {
+                        "x": 68.0,
+                        "y": -15.0
+                    },
+                    "radius": 8.0,
+                    "isPassed": false
+                }
+            ],
+            "maxDamagePercentAllowed": 100.0,
+            "minFuelRemainingPercent": 0.0,
+            "timeLimitSeconds": null
+        },
+        {
+            "id": 446,
+            "world": "GRAVEYARD",
+            "name": "Zero-G Crucible",
+            "objectiveType": "RACE_TIME_TRIAL",
+            "description": "Official downloadable server level 46 for Graveyard: Zero-G Crucible.",
+            "primaryGoalText": "Complete Zero-G Crucible objective",
+            "spawnPosition": {
+                "x": 0.0,
+                "y": 15.0
+            },
+            "spawnAngleRad": 0.0,
+            "targetPadId": "pad_server_446",
+            "allowedShips": [
+                "SCOUT",
+                "MULE",
+                "WASP",
+                "TITAN",
+                "PHANTOM"
+            ],
+            "defaultShip": "PHANTOM",
+            "physicsMode": "NEWTON",
+            "medalTargets": {
+                "bronzeSeconds": 195.0,
+                "silverSeconds": 136.5,
+                "goldSeconds": 97.5,
+                "platinumSeconds": 73.125
+            },
+            "terrainSegments": [
+                {
+                    "start": {
+                        "x": -20.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 195.0,
+                        "y": 0.0
+                    },
+                    "surfaceType": "ROCK",
+                    "friction": 0.5,
+                    "restitution": 0.2
+                }
+            ],
+            "landingPads": [
+                {
+                    "id": "pad_start",
+                    "start": {
+                        "x": -5.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 5.0,
+                        "y": 0.0
+                    },
+                    "maxVerticalSpeedPerfect": 1.5,
+                    "maxHorizontalSpeedPerfect": 1.0,
+                    "maxAngleDegreesPerfect": 8.0,
+                    "maxVerticalSpeedSafe": 3.0,
+                    "maxHorizontalSpeedSafe": 2.0,
+                    "maxAngleDegreesSafe": 15.0,
+                    "maxVerticalSpeedHard": 6.0,
+                    "maxHorizontalSpeedHard": 4.0,
+                    "maxAngleDegreesHard": 25.0,
+                    "requiredStableTime": 0.5
+                },
+                {
+                    "id": "pad_server_446",
+                    "start": {
+                        "x": 135.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 150.0,
+                        "y": 0.0
+                    },
+                    "maxVerticalSpeedPerfect": 1.5,
+                    "maxHorizontalSpeedPerfect": 1.0,
+                    "maxAngleDegreesPerfect": 8.0,
+                    "maxVerticalSpeedSafe": 3.0,
+                    "maxHorizontalSpeedSafe": 2.0,
+                    "maxAngleDegreesSafe": 15.0,
+                    "maxVerticalSpeedHard": 6.0,
+                    "maxHorizontalSpeedHard": 4.0,
+                    "maxAngleDegreesHard": 25.0,
+                    "requiredStableTime": 0.5
+                }
+            ],
+            "gravityFields": [],
+            "hazardZones": [],
+            "cargoSpawns": [],
+            "deliveryZones": [],
+            "checkpoints": [
+                {
+                    "index": 1,
+                    "position": {
+                        "x": 70.0,
+                        "y": -15.0
+                    },
+                    "radius": 8.0,
+                    "isPassed": false
+                }
+            ],
+            "maxDamagePercentAllowed": 100.0,
+            "minFuelRemainingPercent": 0.0,
+            "timeLimitSeconds": null
+        },
+        {
+            "id": 447,
+            "world": "GRAVEYARD",
+            "name": "Derelict Vault",
+            "objectiveType": "RESCUE",
+            "description": "Official downloadable server level 47 for Graveyard: Derelict Vault.",
+            "primaryGoalText": "Complete Derelict Vault objective",
+            "spawnPosition": {
+                "x": 0.0,
+                "y": 15.0
+            },
+            "spawnAngleRad": 0.0,
+            "targetPadId": null,
+            "allowedShips": [
+                "SCOUT",
+                "MULE",
+                "WASP",
+                "TITAN",
+                "PHANTOM"
+            ],
+            "defaultShip": "PHANTOM",
+            "physicsMode": "NEWTON",
+            "medalTargets": {
+                "bronzeSeconds": 202.0,
+                "silverSeconds": 141.4,
+                "goldSeconds": 101.0,
+                "platinumSeconds": 75.75
+            },
+            "terrainSegments": [
+                {
+                    "start": {
+                        "x": -20.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 198.0,
+                        "y": 0.0
+                    },
+                    "surfaceType": "ROCK",
+                    "friction": 0.5,
+                    "restitution": 0.2
+                }
+            ],
+            "landingPads": [
+                {
+                    "id": "pad_start",
+                    "start": {
+                        "x": -5.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 5.0,
+                        "y": 0.0
+                    },
+                    "maxVerticalSpeedPerfect": 1.5,
+                    "maxHorizontalSpeedPerfect": 1.0,
+                    "maxAngleDegreesPerfect": 8.0,
+                    "maxVerticalSpeedSafe": 3.0,
+                    "maxHorizontalSpeedSafe": 2.0,
+                    "maxAngleDegreesSafe": 15.0,
+                    "maxVerticalSpeedHard": 6.0,
+                    "maxHorizontalSpeedHard": 4.0,
+                    "maxAngleDegreesHard": 25.0,
+                    "requiredStableTime": 0.5
+                },
+                {
+                    "id": "pad_server_447",
+                    "start": {
+                        "x": 138.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 153.0,
+                        "y": 0.0
+                    },
+                    "maxVerticalSpeedPerfect": 1.5,
+                    "maxHorizontalSpeedPerfect": 1.0,
+                    "maxAngleDegreesPerfect": 8.0,
+                    "maxVerticalSpeedSafe": 3.0,
+                    "maxHorizontalSpeedSafe": 2.0,
+                    "maxAngleDegreesSafe": 15.0,
+                    "maxVerticalSpeedHard": 6.0,
+                    "maxHorizontalSpeedHard": 4.0,
+                    "maxAngleDegreesHard": 25.0,
+                    "requiredStableTime": 0.5
+                }
+            ],
+            "gravityFields": [],
+            "hazardZones": [],
+            "cargoSpawns": [
+                {
+                    "id": "server_cargo_447",
+                    "body": {
+                        "position": {
+                            "x": 57.0,
+                            "y": 5.0
+                        },
+                        "velocity": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "angle": 0.0,
+                        "angularVelocity": 0.0,
+                        "mass": 500.0,
+                        "momentOfInertia": 2400.0,
+                        "isStatic": false
+                    },
+                    "radius": 1.0,
+                    "hazardType": "NONE",
+                    "maxIntegrity": 100.0,
+                    "currentIntegrity": 100.0,
+                    "isTethered": false,
+                    "isDelivered": false
+                }
+            ],
+            "deliveryZones": [
+                {
+                    "id": "server_drop_447",
+                    "center": {
+                        "x": 132.0,
+                        "y": 10.0
+                    },
+                    "radius": 10.0,
+                    "requiredCargoId": "server_cargo_447",
+                    "isFulfilled": false
+                }
+            ],
+            "checkpoints": [
+                {
+                    "index": 1,
+                    "position": {
+                        "x": 72.0,
+                        "y": -15.0
+                    },
+                    "radius": 8.0,
+                    "isPassed": false
+                }
+            ],
+            "maxDamagePercentAllowed": 100.0,
+            "minFuelRemainingPercent": 0.0,
+            "timeLimitSeconds": null
+        },
+        {
+            "id": 448,
+            "world": "GRAVEYARD",
+            "name": "Newtonian Apex",
+            "objectiveType": "SURVIVAL",
+            "description": "Official downloadable server level 48 for Graveyard: Newtonian Apex.",
+            "primaryGoalText": "Complete Newtonian Apex objective",
+            "spawnPosition": {
+                "x": 0.0,
+                "y": 15.0
+            },
+            "spawnAngleRad": 0.0,
+            "targetPadId": "pad_server_448",
+            "allowedShips": [
+                "SCOUT",
+                "MULE",
+                "WASP",
+                "TITAN",
+                "PHANTOM"
+            ],
+            "defaultShip": "PHANTOM",
+            "physicsMode": "NEWTON",
+            "medalTargets": {
+                "bronzeSeconds": 209.0,
+                "silverSeconds": 146.3,
+                "goldSeconds": 104.5,
+                "platinumSeconds": 78.375
+            },
+            "terrainSegments": [
+                {
+                    "start": {
+                        "x": -20.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 201.0,
+                        "y": 0.0
+                    },
+                    "surfaceType": "ROCK",
+                    "friction": 0.5,
+                    "restitution": 0.2
+                }
+            ],
+            "landingPads": [
+                {
+                    "id": "pad_start",
+                    "start": {
+                        "x": -5.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 5.0,
+                        "y": 0.0
+                    },
+                    "maxVerticalSpeedPerfect": 1.5,
+                    "maxHorizontalSpeedPerfect": 1.0,
+                    "maxAngleDegreesPerfect": 8.0,
+                    "maxVerticalSpeedSafe": 3.0,
+                    "maxHorizontalSpeedSafe": 2.0,
+                    "maxAngleDegreesSafe": 15.0,
+                    "maxVerticalSpeedHard": 6.0,
+                    "maxHorizontalSpeedHard": 4.0,
+                    "maxAngleDegreesHard": 25.0,
+                    "requiredStableTime": 0.5
+                },
+                {
+                    "id": "pad_server_448",
+                    "start": {
+                        "x": 141.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 156.0,
+                        "y": 0.0
+                    },
+                    "maxVerticalSpeedPerfect": 1.5,
+                    "maxHorizontalSpeedPerfect": 1.0,
+                    "maxAngleDegreesPerfect": 8.0,
+                    "maxVerticalSpeedSafe": 3.0,
+                    "maxHorizontalSpeedSafe": 2.0,
+                    "maxAngleDegreesSafe": 15.0,
+                    "maxVerticalSpeedHard": 6.0,
+                    "maxHorizontalSpeedHard": 4.0,
+                    "maxAngleDegreesHard": 25.0,
+                    "requiredStableTime": 0.5
+                }
+            ],
+            "gravityFields": [],
+            "hazardZones": [],
+            "cargoSpawns": [],
+            "deliveryZones": [],
+            "checkpoints": [
+                {
+                    "index": 1,
+                    "position": {
+                        "x": 74.0,
+                        "y": -15.0
+                    },
+                    "radius": 8.0,
+                    "isPassed": false
+                }
+            ],
+            "maxDamagePercentAllowed": 100.0,
+            "minFuelRemainingPercent": 0.0,
+            "timeLimitSeconds": null
+        },
+        {
+            "id": 449,
+            "world": "GRAVEYARD",
+            "name": "Graveyard Core",
+            "objectiveType": "LANDING",
+            "description": "Official downloadable server level 49 for Graveyard: Graveyard Core.",
+            "primaryGoalText": "Complete Graveyard Core objective",
+            "spawnPosition": {
+                "x": 0.0,
+                "y": 15.0
+            },
+            "spawnAngleRad": 0.0,
+            "targetPadId": "pad_server_449",
+            "allowedShips": [
+                "SCOUT",
+                "MULE",
+                "WASP",
+                "TITAN",
+                "PHANTOM"
+            ],
+            "defaultShip": "PHANTOM",
+            "physicsMode": "NEWTON",
+            "medalTargets": {
+                "bronzeSeconds": 216.0,
+                "silverSeconds": 151.2,
+                "goldSeconds": 108.0,
+                "platinumSeconds": 81.0
+            },
+            "terrainSegments": [
+                {
+                    "start": {
+                        "x": -20.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 204.0,
+                        "y": 0.0
+                    },
+                    "surfaceType": "ROCK",
+                    "friction": 0.5,
+                    "restitution": 0.2
+                }
+            ],
+            "landingPads": [
+                {
+                    "id": "pad_start",
+                    "start": {
+                        "x": -5.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 5.0,
+                        "y": 0.0
+                    },
+                    "maxVerticalSpeedPerfect": 1.5,
+                    "maxHorizontalSpeedPerfect": 1.0,
+                    "maxAngleDegreesPerfect": 8.0,
+                    "maxVerticalSpeedSafe": 3.0,
+                    "maxHorizontalSpeedSafe": 2.0,
+                    "maxAngleDegreesSafe": 15.0,
+                    "maxVerticalSpeedHard": 6.0,
+                    "maxHorizontalSpeedHard": 4.0,
+                    "maxAngleDegreesHard": 25.0,
+                    "requiredStableTime": 0.5
+                },
+                {
+                    "id": "pad_server_449",
+                    "start": {
+                        "x": 144.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 159.0,
+                        "y": 0.0
+                    },
+                    "maxVerticalSpeedPerfect": 1.5,
+                    "maxHorizontalSpeedPerfect": 1.0,
+                    "maxAngleDegreesPerfect": 8.0,
+                    "maxVerticalSpeedSafe": 3.0,
+                    "maxHorizontalSpeedSafe": 2.0,
+                    "maxAngleDegreesSafe": 15.0,
+                    "maxVerticalSpeedHard": 6.0,
+                    "maxHorizontalSpeedHard": 4.0,
+                    "maxAngleDegreesHard": 25.0,
+                    "requiredStableTime": 0.5
+                }
+            ],
+            "gravityFields": [],
+            "hazardZones": [],
+            "cargoSpawns": [],
+            "deliveryZones": [],
+            "checkpoints": [
+                {
+                    "index": 1,
+                    "position": {
+                        "x": 76.0,
+                        "y": -15.0
+                    },
+                    "radius": 8.0,
+                    "isPassed": false
+                }
+            ],
+            "maxDamagePercentAllowed": 100.0,
+            "minFuelRemainingPercent": 0.0,
+            "timeLimitSeconds": null
+        },
+        {
+            "id": 450,
+            "world": "GRAVEYARD",
+            "name": "Outer Space Station",
+            "objectiveType": "RACE_TIME_TRIAL",
+            "description": "Official downloadable server level 50 for Graveyard: Outer Space Station.",
+            "primaryGoalText": "Complete Outer Space Station objective",
+            "spawnPosition": {
+                "x": 0.0,
+                "y": 15.0
+            },
+            "spawnAngleRad": 0.0,
+            "targetPadId": "pad_server_450",
+            "allowedShips": [
+                "SCOUT",
+                "MULE",
+                "WASP",
+                "TITAN",
+                "PHANTOM"
+            ],
+            "defaultShip": "PHANTOM",
+            "physicsMode": "NEWTON",
+            "medalTargets": {
+                "bronzeSeconds": 223.0,
+                "silverSeconds": 156.09999,
+                "goldSeconds": 111.5,
+                "platinumSeconds": 83.625
+            },
+            "terrainSegments": [
+                {
+                    "start": {
+                        "x": -20.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 207.0,
+                        "y": 0.0
+                    },
+                    "surfaceType": "ROCK",
+                    "friction": 0.5,
+                    "restitution": 0.2
+                }
+            ],
+            "landingPads": [
+                {
+                    "id": "pad_start",
+                    "start": {
+                        "x": -5.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 5.0,
+                        "y": 0.0
+                    },
+                    "maxVerticalSpeedPerfect": 1.5,
+                    "maxHorizontalSpeedPerfect": 1.0,
+                    "maxAngleDegreesPerfect": 8.0,
+                    "maxVerticalSpeedSafe": 3.0,
+                    "maxHorizontalSpeedSafe": 2.0,
+                    "maxAngleDegreesSafe": 15.0,
+                    "maxVerticalSpeedHard": 6.0,
+                    "maxHorizontalSpeedHard": 4.0,
+                    "maxAngleDegreesHard": 25.0,
+                    "requiredStableTime": 0.5
+                },
+                {
+                    "id": "pad_server_450",
+                    "start": {
+                        "x": 147.0,
+                        "y": 0.0
+                    },
+                    "end": {
+                        "x": 162.0,
+                        "y": 0.0
+                    },
+                    "maxVerticalSpeedPerfect": 1.5,
+                    "maxHorizontalSpeedPerfect": 1.0,
+                    "maxAngleDegreesPerfect": 8.0,
+                    "maxVerticalSpeedSafe": 3.0,
+                    "maxHorizontalSpeedSafe": 2.0,
+                    "maxAngleDegreesSafe": 15.0,
+                    "maxVerticalSpeedHard": 6.0,
+                    "maxHorizontalSpeedHard": 4.0,
+                    "maxAngleDegreesHard": 25.0,
+                    "requiredStableTime": 0.5
+                }
+            ],
+            "gravityFields": [],
+            "hazardZones": [],
+            "cargoSpawns": [],
+            "deliveryZones": [],
+            "checkpoints": [
+                {
+                    "index": 1,
+                    "position": {
+                        "x": 78.0,
+                        "y": -15.0
+                    },
+                    "radius": 8.0,
+                    "isPassed": false
+                }
+            ],
+            "maxDamagePercentAllowed": 100.0,
+            "minFuelRemainingPercent": 0.0,
+            "timeLimitSeconds": null
+        }
+    ]
+}

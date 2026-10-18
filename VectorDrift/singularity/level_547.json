@@ -1,0 +1,156 @@
+{
+    "id": 547,
+    "world": "SINGULARITY",
+    "name": "Gravitational Lens B",
+    "objectiveType": "RESCUE",
+    "description": "Official downloadable server level 47 for Singularity: Gravitational Lens B.",
+    "primaryGoalText": "Complete Gravitational Lens B objective",
+    "spawnPosition": {
+        "x": 0.0,
+        "y": 15.0
+    },
+    "spawnAngleRad": 0.0,
+    "targetPadId": null,
+    "allowedShips": [
+        "SCOUT",
+        "MULE",
+        "WASP",
+        "TITAN",
+        "PHANTOM"
+    ],
+    "defaultShip": "PHANTOM",
+    "physicsMode": "NEWTON",
+    "medalTargets": {
+        "bronzeSeconds": 202.0,
+        "silverSeconds": 141.4,
+        "goldSeconds": 101.0,
+        "platinumSeconds": 75.75
+    },
+    "terrainSegments": [
+        {
+            "start": {
+                "x": -20.0,
+                "y": 0.0
+            },
+            "end": {
+                "x": 198.0,
+                "y": 0.0
+            },
+            "surfaceType": "ROCK",
+            "friction": 0.5,
+            "restitution": 0.2
+        }
+    ],
+    "landingPads": [
+        {
+            "id": "pad_start",
+            "start": {
+                "x": -5.0,
+                "y": 0.0
+            },
+            "end": {
+                "x": 5.0,
+                "y": 0.0
+            },
+            "maxVerticalSpeedPerfect": 1.5,
+            "maxHorizontalSpeedPerfect": 1.0,
+            "maxAngleDegreesPerfect": 8.0,
+            "maxVerticalSpeedSafe": 3.0,
+            "maxHorizontalSpeedSafe": 2.0,
+            "maxAngleDegreesSafe": 15.0,
+            "maxVerticalSpeedHard": 6.0,
+            "maxHorizontalSpeedHard": 4.0,
+            "maxAngleDegreesHard": 25.0,
+            "requiredStableTime": 0.5
+        },
+        {
+            "id": "pad_server_547",
+            "start": {
+                "x": 138.0,
+                "y": 0.0
+            },
+            "end": {
+                "x": 153.0,
+                "y": 0.0
+            },
+            "maxVerticalSpeedPerfect": 1.5,
+            "maxHorizontalSpeedPerfect": 1.0,
+            "maxAngleDegreesPerfect": 8.0,
+            "maxVerticalSpeedSafe": 3.0,
+            "maxHorizontalSpeedSafe": 2.0,
+            "maxAngleDegreesSafe": 15.0,
+            "maxVerticalSpeedHard": 6.0,
+            "maxHorizontalSpeedHard": 4.0,
+            "maxAngleDegreesHard": 25.0,
+            "requiredStableTime": 0.5
+        }
+    ],
+    "gravityFields": [
+        {
+            "id": "sing_server_547",
+            "position": {
+                "x": 82.0,
+                "y": 20.0
+            },
+            "mu": 6000.0,
+            "maxRadius": 50.0,
+            "maxAcceleration": 25.0,
+            "epsilon": 5.0,
+            "isArtificial": false,
+            "isInverted": false
+        }
+    ],
+    "hazardZones": [],
+    "cargoSpawns": [
+        {
+            "id": "server_cargo_547",
+            "body": {
+                "position": {
+                    "x": 57.0,
+                    "y": 5.0
+                },
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "angle": 0.0,
+                "angularVelocity": 0.0,
+                "mass": 500.0,
+                "momentOfInertia": 2400.0,
+                "isStatic": false
+            },
+            "radius": 1.0,
+            "hazardType": "NONE",
+            "maxIntegrity": 100.0,
+            "currentIntegrity": 100.0,
+            "isTethered": false,
+            "isDelivered": false
+        }
+    ],
+    "deliveryZones": [
+        {
+            "id": "server_drop_547",
+            "center": {
+                "x": 132.0,
+                "y": 10.0
+            },
+            "radius": 10.0,
+            "requiredCargoId": "server_cargo_547",
+            "isFulfilled": false
+        }
+    ],
+    "checkpoints": [
+        {
+            "index": 1,
+            "position": {
+                "x": 72.0,
+                "y": -15.0
+            },
+            "radius": 8.0,
+            "isPassed": false
+        }
+    ],
+    "maxDamagePercentAllowed": 100.0,
+    "minFuelRemainingPercent": 0.0,
+    "timeLimitSeconds": null
+}

@@ -1,0 +1,120 @@
+{
+    "id": 543,
+    "world": "SINGULARITY",
+    "name": "Binary Gravity Pull",
+    "objectiveType": "SURVIVAL",
+    "description": "Official downloadable server level 43 for Singularity: Binary Gravity Pull.",
+    "primaryGoalText": "Complete Binary Gravity Pull objective",
+    "spawnPosition": {
+        "x": 0.0,
+        "y": 15.0
+    },
+    "spawnAngleRad": 0.0,
+    "targetPadId": "pad_server_543",
+    "allowedShips": [
+        "SCOUT",
+        "MULE",
+        "WASP",
+        "TITAN",
+        "PHANTOM"
+    ],
+    "defaultShip": "PHANTOM",
+    "physicsMode": "NEWTON",
+    "medalTargets": {
+        "bronzeSeconds": 174.0,
+        "silverSeconds": 121.799995,
+        "goldSeconds": 87.0,
+        "platinumSeconds": 65.25
+    },
+    "terrainSegments": [
+        {
+            "start": {
+                "x": -20.0,
+                "y": 0.0
+            },
+            "end": {
+                "x": 186.0,
+                "y": 0.0
+            },
+            "surfaceType": "ROCK",
+            "friction": 0.5,
+            "restitution": 0.2
+        }
+    ],
+    "landingPads": [
+        {
+            "id": "pad_start",
+            "start": {
+                "x": -5.0,
+                "y": 0.0
+            },
+            "end": {
+                "x": 5.0,
+                "y": 0.0
+            },
+            "maxVerticalSpeedPerfect": 1.5,
+            "maxHorizontalSpeedPerfect": 1.0,
+            "maxAngleDegreesPerfect": 8.0,
+            "maxVerticalSpeedSafe": 3.0,
+            "maxHorizontalSpeedSafe": 2.0,
+            "maxAngleDegreesSafe": 15.0,
+            "maxVerticalSpeedHard": 6.0,
+            "maxHorizontalSpeedHard": 4.0,
+            "maxAngleDegreesHard": 25.0,
+            "requiredStableTime": 0.5
+        },
+        {
+            "id": "pad_server_543",
+            "start": {
+                "x": 126.0,
+                "y": 0.0
+            },
+            "end": {
+                "x": 141.0,
+                "y": 0.0
+            },
+            "maxVerticalSpeedPerfect": 1.5,
+            "maxHorizontalSpeedPerfect": 1.0,
+            "maxAngleDegreesPerfect": 8.0,
+            "maxVerticalSpeedSafe": 3.0,
+            "maxHorizontalSpeedSafe": 2.0,
+            "maxAngleDegreesSafe": 15.0,
+            "maxVerticalSpeedHard": 6.0,
+            "maxHorizontalSpeedHard": 4.0,
+            "maxAngleDegreesHard": 25.0,
+            "requiredStableTime": 0.5
+        }
+    ],
+    "gravityFields": [
+        {
+            "id": "sing_server_543",
+            "position": {
+                "x": 74.0,
+                "y": 20.0
+            },
+            "mu": 6000.0,
+            "maxRadius": 50.0,
+            "maxAcceleration": 25.0,
+            "epsilon": 5.0,
+            "isArtificial": false,
+            "isInverted": false
+        }
+    ],
+    "hazardZones": [],
+    "cargoSpawns": [],
+    "deliveryZones": [],
+    "checkpoints": [
+        {
+            "index": 1,
+            "position": {
+                "x": 64.0,
+                "y": -15.0
+            },
+            "radius": 8.0,
+            "isPassed": false
+        }
+    ],
+    "maxDamagePercentAllowed": 100.0,
+    "minFuelRemainingPercent": 0.0,
+    "timeLimitSeconds": null
+}
