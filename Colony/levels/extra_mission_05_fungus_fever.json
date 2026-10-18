@@ -1,0 +1,118 @@
+{
+  "id": "extra_mission_05_fungus_fever",
+  "category": "EXTRA_MISSION",
+  "number": 5,
+  "title": "Extra-Mission 5: Pilzgarten-Expansion",
+  "subtitle": "Symbiose im Dunkeln",
+  "description": "Erforsche die hohe Kunst der Pilzzucht. Verwandle gewöhnliche Blattmasse in nahrhafte Myzel-Knoten und erreiche vollständige Nahrungsautarkie.",
+  "author": "Mycology Guild",
+  "version": 1,
+  "difficulty": "MEDIUM",
+  "initialResources": {
+    "plantMaterial": 200.0,
+    "protein": 50.0,
+    "water": 140.0,
+    "resinMineral": 130.0,
+    "genePoints": 50.0
+  },
+  "customGardenNodes": [
+    {
+      "id": "res_lush_leaves_5",
+      "type": "PLANT_MATERIAL",
+      "position": { "x": 45.0, "y": 45.0 },
+      "remainingAmount": 350.0,
+      "maxAmount": 350.0
+    },
+    {
+      "id": "res_compost_decay_5",
+      "type": "PROTEIN",
+      "position": { "x": 70.0, "y": 65.0 },
+      "remainingAmount": 150.0,
+      "maxAmount": 150.0
+    }
+  ],
+  "initialHazards": [],
+  "phases": [
+    {
+      "phaseNumber": 1,
+      "title": "Erste Sporen",
+      "subtitle": "Beimpfung der Kammern",
+      "description": "Grabe tiefe Kammern und pflanze die ersten Myzelkulturen.",
+      "objectives": [
+        {
+          "id": "obj_em5_p1_fungus",
+          "description": "Baue 2 Pilzgärten",
+          "type": "BUILD_CHAMBER",
+          "targetAmount": 2.0,
+          "targetChamberType": "FUNGUS_GARDEN",
+          "isPrimary": true
+        },
+        {
+          "id": "obj_em5_p1_leaves",
+          "description": "Sammle 200 Blattmaterial für Kompostierung",
+          "type": "COLLECT_RESOURCE",
+          "targetAmount": 200.0,
+          "targetResourceType": "PLANT_MATERIAL",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "phaseNumber": 2,
+      "title": "Klima-Regulierung",
+      "subtitle": "Temperatur und Feuchtigkeit",
+      "description": "Pilzgärten brauchen ideale Luftzirkulation. Baue Belüftungen und Müllkammern.",
+      "objectives": [
+        {
+          "id": "obj_em5_p2_vent",
+          "description": "Errichte 1 Belüftungsschacht",
+          "type": "BUILD_CHAMBER",
+          "targetAmount": 1.0,
+          "targetChamberType": "VENTILATION_SHAFT",
+          "isPrimary": true
+        },
+        {
+          "id": "obj_em5_p2_waste",
+          "description": "Grabe 1 Abfallkammer zur Hygiene",
+          "type": "BUILD_CHAMBER",
+          "targetAmount": 1.0,
+          "targetChamberType": "WASTE_ROOM",
+          "isPrimary": true
+        },
+        {
+          "id": "obj_em5_p2_pop",
+          "description": "Erweitere Kolonie auf 22 Ameisen",
+          "type": "EXPAND_POPULATION",
+          "targetAmount": 22.0,
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "phaseNumber": 3,
+      "title": "Myzel-Grossbetrieb",
+      "subtitle": "Die ewige Ernte",
+      "description": "Verdreifache deine Pilzkammern und versorge ein gewaltiges Ameisenvolk.",
+      "objectives": [
+        {
+          "id": "obj_em5_p3_fungus",
+          "description": "Besitze insgesamt 4 florierende Pilzgärten",
+          "type": "BUILD_CHAMBER",
+          "targetAmount": 4.0,
+          "targetChamberType": "FUNGUS_GARDEN",
+          "isPrimary": true
+        },
+        {
+          "id": "obj_em5_p3_pop",
+          "description": "Erreiche eine Population von 30 Ameisen",
+          "type": "EXPAND_POPULATION",
+          "targetAmount": 30.0,
+          "isPrimary": true
+        }
+      ]
+    }
+  ],
+  "rewardGenePoints": 60.0,
+  "fileSizeKb": 16,
+  "downloadUrl": "https://raw.githubusercontent.com/AndreWiget/AppDownloads/main/Colony/levels/extra_mission_05_fungus_fever.json"
+}

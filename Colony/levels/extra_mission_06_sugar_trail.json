@@ -1,0 +1,111 @@
+{
+  "id": "extra_mission_06_sugar_trail",
+  "category": "EXTRA_MISSION",
+  "number": 6,
+  "title": "Extra-Mission 6: Die Zucker-Autobahn",
+  "subtitle": "Fernexpedition zur Terrasse",
+  "description": "Auf einem fernen Steintisch wurden Reste von süßem Nektar entdeckt. Etabliere eine hocheffiziente Pheromon-Schnellstrasse quer über den Steinweg.",
+  "author": "Pheromone Logistics",
+  "version": 1,
+  "difficulty": "EASY",
+  "initialResources": {
+    "plantMaterial": 180.0,
+    "protein": 60.0,
+    "water": 100.0,
+    "resinMineral": 140.0,
+    "genePoints": 30.0
+  },
+  "customGardenNodes": [
+    {
+      "id": "res_sugar_source_6",
+      "type": "PLANT_MATERIAL",
+      "position": { "x": 85.0, "y": 80.0 },
+      "remainingAmount": 400.0,
+      "maxAmount": 400.0
+    },
+    {
+      "id": "res_dew_table_6",
+      "type": "WATER",
+      "position": { "x": 80.0, "y": 75.0 },
+      "remainingAmount": 250.0,
+      "maxAmount": 250.0
+    }
+  ],
+  "initialHazards": [],
+  "phases": [
+    {
+      "phaseNumber": 1,
+      "title": "Pfadfindung",
+      "subtitle": "Spuren im Sand",
+      "description": "Erkunde das weit entfernte Zuckerziel und baue erste Vorratskammern.",
+      "objectives": [
+        {
+          "id": "obj_em6_p1_store",
+          "description": "Errichte 2 Vorratskammern",
+          "type": "BUILD_CHAMBER",
+          "targetAmount": 2.0,
+          "targetChamberType": "FOOD_STORE",
+          "isPrimary": true
+        },
+        {
+          "id": "obj_em6_p1_food",
+          "description": "Ernte erste 100 Zuckereinheiten",
+          "type": "COLLECT_RESOURCE",
+          "targetAmount": 100.0,
+          "targetResourceType": "PLANT_MATERIAL",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "phaseNumber": 2,
+      "title": "Karawanen-Logistik",
+      "subtitle": "Dauerlauf der Sammler",
+      "description": "Halte die Pheromon-Hauptstrasse aktiv und ziehe viele Arbeiterinnen heran.",
+      "objectives": [
+        {
+          "id": "obj_em6_p2_workers",
+          "description": "Züchte 15 Arbeiter-Ameisen",
+          "type": "EXPAND_POPULATION",
+          "targetAmount": 15.0,
+          "targetCaste": "WORKER",
+          "isPrimary": true
+        },
+        {
+          "id": "obj_em6_p2_food",
+          "description": "Sammle 250 Zuckereinheiten",
+          "type": "COLLECT_RESOURCE",
+          "targetAmount": 250.0,
+          "targetResourceType": "PLANT_MATERIAL",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "phaseNumber": 3,
+      "title": "Das grosse Schlemmen",
+      "subtitle": "Reichtum für den Winter",
+      "description": "Fülle alle Speicher bis zum Rand und maximiere die Vorräte.",
+      "objectives": [
+        {
+          "id": "obj_em6_p3_food",
+          "description": "Besitze mindestens 400 Einheiten süsses Pflanzenmaterial",
+          "type": "COLLECT_RESOURCE",
+          "targetAmount": 400.0,
+          "targetResourceType": "PLANT_MATERIAL",
+          "isPrimary": true
+        },
+        {
+          "id": "obj_em6_p3_pop",
+          "description": "Erreiche eine Koloniegrösse von 25 Ameisen",
+          "type": "EXPAND_POPULATION",
+          "targetAmount": 25.0,
+          "isPrimary": true
+        }
+      ]
+    }
+  ],
+  "rewardGenePoints": 50.0,
+  "fileSizeKb": 15,
+  "downloadUrl": "https://raw.githubusercontent.com/AndreWiget/AppDownloads/main/Colony/levels/extra_mission_06_sugar_trail.json"
+}

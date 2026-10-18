@@ -1,0 +1,117 @@
+{
+  "id": "extra_mission_04_wasp_attack",
+  "category": "EXTRA_MISSION",
+  "number": 4,
+  "title": "Extra-Mission 4: Luftangriff der Wespen",
+  "subtitle": "Schrecken von oben",
+  "description": "Eine aggressive Wespe patrouilliert im Tiefflug über den sonnigen Rasenabschnitten. Errichte Wachposten und verteidige die Sammlerinnen.",
+  "author": "BioDefense Unit",
+  "version": 1,
+  "difficulty": "HARD",
+  "initialResources": {
+    "plantMaterial": 160.0,
+    "protein": 80.0,
+    "water": 130.0,
+    "resinMineral": 110.0,
+    "genePoints": 45.0
+  },
+  "customGardenNodes": [
+    {
+      "id": "res_sun_leaves_4",
+      "type": "PLANT_MATERIAL",
+      "position": { "x": 55.0, "y": 40.0 },
+      "remainingAmount": 280.0,
+      "maxAmount": 280.0
+    },
+    {
+      "id": "res_nectar_flower_4",
+      "type": "WATER",
+      "position": { "x": 75.0, "y": 30.0 },
+      "remainingAmount": 200.0,
+      "maxAmount": 200.0
+    }
+  ],
+  "initialHazards": [
+    {
+      "id": "hazard_wasp_aerial",
+      "type": "WASP",
+      "position": { "x": 60.0, "y": 50.0 },
+      "hp": 160.0
+    }
+  ],
+  "phases": [
+    {
+      "phaseNumber": 1,
+      "title": "Luftraum-Alarm",
+      "subtitle": "Eingänge sichern",
+      "description": "Bunkere schnell Material im Untergrund und befestige die Eingänge.",
+      "objectives": [
+        {
+          "id": "obj_em4_p1_guard",
+          "description": "Baue 1 Wachkammer zur Nestverteidigung",
+          "type": "BUILD_CHAMBER",
+          "targetAmount": 1.0,
+          "targetChamberType": "GUARD_ROOM",
+          "isPrimary": true
+        },
+        {
+          "id": "obj_em4_p1_food",
+          "description": "Bringe 150 Pflanzenmaterial in Sicherheit",
+          "type": "COLLECT_RESOURCE",
+          "targetAmount": 150.0,
+          "targetResourceType": "PLANT_MATERIAL",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "phaseNumber": 2,
+      "title": "Gegenwehr organisieren",
+      "subtitle": "Hinterhalt im Gras",
+      "description": "Züchte kräftige Soldatinnen heran, um die Wespe bei Landungen abzufangen.",
+      "objectives": [
+        {
+          "id": "obj_em4_p2_soldiers",
+          "description": "Trainiere 5 Soldaten-Ameisen",
+          "type": "EXPAND_POPULATION",
+          "targetAmount": 5.0,
+          "targetCaste": "SOLDIER",
+          "isPrimary": true
+        },
+        {
+          "id": "obj_em4_p2_pop",
+          "description": "Halte die Kolonie über 20 Ameisen",
+          "type": "EXPAND_POPULATION",
+          "targetAmount": 20.0,
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "phaseNumber": 3,
+      "title": "Den Luftraum säubern",
+      "subtitle": "Jagd auf den Angreifer",
+      "description": "Stelle die Wespe am Boden und sichere ihren wertvollen Proteinpanzer.",
+      "objectives": [
+        {
+          "id": "obj_em4_p3_defeat",
+          "description": "Neutralisiere die Wespe",
+          "type": "DEFEAT_HAZARD",
+          "targetAmount": 1.0,
+          "isPrimary": true
+        },
+        {
+          "id": "obj_em4_p3_protein",
+          "description": "Berge 140 Protein",
+          "type": "COLLECT_RESOURCE",
+          "targetAmount": 140.0,
+          "targetResourceType": "PROTEIN",
+          "isPrimary": true
+        }
+      ]
+    }
+  ],
+  "rewardGenePoints": 75.0,
+  "fileSizeKb": 16,
+  "downloadUrl": "https://raw.githubusercontent.com/AndreWiget/AppDownloads/main/Colony/levels/extra_mission_04_wasp_attack.json"
+}

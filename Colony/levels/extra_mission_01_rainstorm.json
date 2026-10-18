@@ -6,67 +6,127 @@
   "subtitle": "Sintflutartige Regenfälle",
   "description": "Ein plötzlicher Sommerregen droht die Nesteingänge zu überfluten. Verstärke die Wälle, rette Larven und ernte schwimmende Pflanzenteile.",
   "author": "Colony Master BioLab",
-  "version": 1,
+  "version": 2,
   "difficulty": "MEDIUM",
   "initialResources": {
-    "plantMaterial": 120.0,
-    "protein": 60.0,
-    "water": 150.0,
-    "resinMineral": 80.0,
-    "genePoints": 20.0
+    "plantMaterial": 140.0,
+    "protein": 70.0,
+    "water": 160.0,
+    "resinMineral": 90.0,
+    "genePoints": 25.0
   },
   "customGardenNodes": [
     {
       "id": "res_leaf_rain_1",
       "type": "PLANT_MATERIAL",
-      "position": {
-        "x": 70.0,
-        "y": 45.0
-      },
-      "remainingAmount": 180.0,
-      "maxAmount": 180.0
+      "position": { "x": 70.0, "y": 45.0 },
+      "remainingAmount": 220.0,
+      "maxAmount": 220.0
     },
     {
       "id": "res_puddle_water_1",
       "type": "WATER",
-      "position": {
-        "x": 50.0,
-        "y": 75.0
-      },
-      "remainingAmount": 250.0,
-      "maxAmount": 250.0
+      "position": { "x": 50.0, "y": 75.0 },
+      "remainingAmount": 300.0,
+      "maxAmount": 300.0
+    },
+    {
+      "id": "res_protein_rain_larva",
+      "type": "PROTEIN",
+      "position": { "x": 35.0, "y": 60.0 },
+      "remainingAmount": 120.0,
+      "maxAmount": 120.0
     }
   ],
   "initialHazards": [
     {
       "id": "hazard_flooding_pool",
       "type": "RAIN_PUDDLE",
-      "position": {
-        "x": 55.0,
-        "y": 65.0
-      },
-      "hp": 100.0
+      "position": { "x": 55.0, "y": 65.0 },
+      "hp": 9999.0
     }
   ],
-  "objectives": [
+  "phases": [
     {
-      "id": "obj_survive_rain",
-      "description": "Sammle 200 Wasser für Notfallreservoire",
-      "type": "COLLECT_RESOURCE",
-      "targetAmount": 200.0,
-      "targetResourceType": "WATER",
-      "isPrimary": true
+      "phaseNumber": 1,
+      "title": "Sturmwarnung",
+      "subtitle": "Die Schleusen schliessen",
+      "description": "Errichte schnell Schutzräume und schaffe Wasser in tiefere Speicher.",
+      "objectives": [
+        {
+          "id": "obj_em1_p1_water",
+          "description": "Sammle 150 Wasser in Speichern",
+          "type": "COLLECT_RESOURCE",
+          "targetAmount": 150.0,
+          "targetResourceType": "WATER",
+          "isPrimary": true
+        },
+        {
+          "id": "obj_em1_p1_reservoir",
+          "description": "Baue 1 Wasserreservoir",
+          "type": "BUILD_CHAMBER",
+          "targetAmount": 1.0,
+          "targetChamberType": "WATER_RESERVOIR",
+          "isPrimary": true
+        }
+      ]
     },
     {
-      "id": "obj_storage_flood",
-      "description": "Errichte 2 Vorratskammern zur Sicherung",
-      "type": "BUILD_CHAMBER",
-      "targetAmount": 2.0,
-      "targetChamberType": "FOOD_STORE",
-      "isPrimary": true
+      "phaseNumber": 2,
+      "title": "Hochwasser-Evakuierung",
+      "subtitle": "Brut in Sicherheit bringen",
+      "description": "Verlege die Brut in sichere Tiefenkammern und sichere Vorräte.",
+      "objectives": [
+        {
+          "id": "obj_em1_p2_brood",
+          "description": "Errichte 2 geschützte Brutkammern",
+          "type": "BUILD_CHAMBER",
+          "targetAmount": 2.0,
+          "targetChamberType": "BROOD_ROOM",
+          "isPrimary": true
+        },
+        {
+          "id": "obj_em1_p2_food",
+          "description": "Sammle 200 Pflanzenmaterial",
+          "type": "COLLECT_RESOURCE",
+          "targetAmount": 200.0,
+          "targetResourceType": "PLANT_MATERIAL",
+          "isPrimary": true
+        },
+        {
+          "id": "obj_em1_p2_pop",
+          "description": "Erhalte mindestens 15 Ameisen am Leben",
+          "type": "EXPAND_POPULATION",
+          "targetAmount": 15.0,
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "phaseNumber": 3,
+      "title": "Nach dem Wolkenbruch",
+      "subtitle": "Ernte im Schlamm",
+      "description": "Nutze das aufgeweichte Erdreich, bringe Proteine ein und baue die Kolonie wieder auf.",
+      "objectives": [
+        {
+          "id": "obj_em1_p3_protein",
+          "description": "Ernte 100 Protein von weggespülten Beutetieren",
+          "type": "COLLECT_RESOURCE",
+          "targetAmount": 100.0,
+          "targetResourceType": "PROTEIN",
+          "isPrimary": true
+        },
+        {
+          "id": "obj_em1_p3_pop",
+          "description": "Vergrössere die Kolonie auf 20 gesunde Ameisen",
+          "type": "EXPAND_POPULATION",
+          "targetAmount": 20.0,
+          "isPrimary": true
+        }
+      ]
     }
   ],
-  "rewardGenePoints": 40.0,
-  "fileSizeKb": 14,
+  "rewardGenePoints": 45.0,
+  "fileSizeKb": 15,
   "downloadUrl": "https://raw.githubusercontent.com/AndreWiget/AppDownloads/main/Colony/levels/extra_mission_01_rainstorm.json"
 }

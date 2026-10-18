@@ -1,0 +1,140 @@
+{
+  "id": "extra_mission_09_super_colony",
+  "category": "EXTRA_MISSION",
+  "number": 9,
+  "title": "Extra-Mission 9: Die Super-Metropole",
+  "subtitle": "Mega-Nest im Gartenbeet",
+  "description": "Errichte eine monumentale Ameisen-Zivilisation. Verbinde alle Kammersysteme in perfekter Harmonie und ziehe ein gigantisches Heer aus Arbeiterinnen und Soldatinnen heran.",
+  "author": "Colony Architect Guild",
+  "version": 1,
+  "difficulty": "EXPERT",
+  "initialResources": {
+    "plantMaterial": 250.0,
+    "protein": 120.0,
+    "water": 180.0,
+    "resinMineral": 180.0,
+    "genePoints": 80.0
+  },
+  "customGardenNodes": [
+    {
+      "id": "res_massive_sugar_9",
+      "type": "PLANT_MATERIAL",
+      "position": { "x": 50.0, "y": 30.0 },
+      "remainingAmount": 500.0,
+      "maxAmount": 500.0
+    },
+    {
+      "id": "res_massive_protein_9",
+      "type": "PROTEIN",
+      "position": { "x": 75.0, "y": 65.0 },
+      "remainingAmount": 300.0,
+      "maxAmount": 300.0
+    },
+    {
+      "id": "res_massive_water_9",
+      "type": "WATER",
+      "position": { "x": 30.0, "y": 70.0 },
+      "remainingAmount": 400.0,
+      "maxAmount": 400.0
+    }
+  ],
+  "initialHazards": [
+    {
+      "id": "hazard_super_spider_9",
+      "type": "JUMPING_SPIDER",
+      "position": { "x": 65.0, "y": 50.0 },
+      "hp": 250.0
+    }
+  ],
+  "phases": [
+    {
+      "phaseNumber": 1,
+      "title": "Infrastruktur-Fundament",
+      "subtitle": "Die Grundpfeiler der Metropole",
+      "description": "Grabe ein verzweigtes System aus Vorratskammern, Reservoirs und Abfallentsorgung.",
+      "objectives": [
+        {
+          "id": "obj_em9_p1_store",
+          "description": "Baue 3 Vorratskammern",
+          "type": "BUILD_CHAMBER",
+          "targetAmount": 3.0,
+          "targetChamberType": "FOOD_STORE",
+          "isPrimary": true
+        },
+        {
+          "id": "obj_em9_p1_res",
+          "description": "Baue 2 Wasserreservoirs",
+          "type": "BUILD_CHAMBER",
+          "targetAmount": 2.0,
+          "targetChamberType": "WATER_RESERVOIR",
+          "isPrimary": true
+        },
+        {
+          "id": "obj_em9_p1_waste",
+          "description": "Errichte 1 Abfallkammer",
+          "type": "BUILD_CHAMBER",
+          "targetAmount": 1.0,
+          "targetChamberType": "WASTE_ROOM",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "phaseNumber": 2,
+      "title": "Bollwerk der Wehrhaften",
+      "subtitle": "Garnison und Pilzwirtschaft",
+      "description": "Sichere das Nest gegen Angreifer und maximiere die Eiablage der Königin.",
+      "objectives": [
+        {
+          "id": "obj_em9_p2_guards",
+          "description": "Errichte 2 Wachkammern",
+          "type": "BUILD_CHAMBER",
+          "targetAmount": 2.0,
+          "targetChamberType": "GUARD_ROOM",
+          "isPrimary": true
+        },
+        {
+          "id": "obj_em9_p2_soldiers",
+          "description": "Züchte 6 Soldaten-Ameisen",
+          "type": "EXPAND_POPULATION",
+          "targetAmount": 6.0,
+          "targetCaste": "SOLDIER",
+          "isPrimary": true
+        },
+        {
+          "id": "obj_em9_p2_defeat",
+          "description": "Besiege 1 Gartenbedrohung",
+          "type": "DEFEAT_HAZARD",
+          "targetAmount": 1.0,
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "phaseNumber": 3,
+      "title": "Das Weltwunder der Insekten",
+      "subtitle": "Hundert Ameisen im Gleichschritt",
+      "description": "Erreiche die maximale Kolonieblüte mit 40 Ameisen und gewaltigen Kornkammern.",
+      "objectives": [
+        {
+          "id": "obj_em9_p3_pop",
+          "description": "Vergrössere die Megametropole auf 40 Ameisen",
+          "type": "EXPAND_POPULATION",
+          "targetAmount": 40.0,
+          "isPrimary": true
+        },
+        {
+          "id": "obj_em9_p3_food",
+          "description": "Häufe 500 Pflanzenmaterial & Zucker an",
+          "type": "COLLECT_RESOURCE",
+          "targetAmount": 500.0,
+          "targetResourceType": "PLANT_MATERIAL",
+          "isPrimary": true
+        }
+      ]
+    }
+  ],
+  "rewardGenePoints": 100.0,
+  "fileSizeKb": 17,
+  "downloadUrl": "https://raw.githubusercontent.com/AndreWiget/AppDownloads/main/Colony/levels/extra_mission_09_super_colony.json"
+}

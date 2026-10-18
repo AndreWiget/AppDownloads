@@ -1,0 +1,117 @@
+{
+  "id": "extra_mission_07_beetle_graveyard",
+  "category": "EXTRA_MISSION",
+  "number": 7,
+  "title": "Extra-Mission 7: Der Käfer-Friedhof",
+  "subtitle": "Protein-Schatz im Totholz",
+  "description": "Unter einem verrottenden Baumstamm liegt ein riesiger Vorrat an Chitin und Insektenprotein. Doch der Weg führt mitten durch das Jagdgebiet von Raubinsekten.",
+  "author": "Entomology League",
+  "version": 1,
+  "difficulty": "HARD",
+  "initialResources": {
+    "plantMaterial": 130.0,
+    "protein": 100.0,
+    "water": 110.0,
+    "resinMineral": 150.0,
+    "genePoints": 50.0
+  },
+  "customGardenNodes": [
+    {
+      "id": "res_beetle_carcass_1",
+      "type": "PROTEIN",
+      "position": { "x": 75.0, "y": 40.0 },
+      "remainingAmount": 300.0,
+      "maxAmount": 300.0
+    },
+    {
+      "id": "res_rotting_bark_7",
+      "type": "RESIN_MINERAL",
+      "position": { "x": 65.0, "y": 60.0 },
+      "remainingAmount": 250.0,
+      "maxAmount": 250.0
+    }
+  ],
+  "initialHazards": [
+    {
+      "id": "hazard_patrol_spider_7",
+      "type": "JUMPING_SPIDER",
+      "position": { "x": 60.0, "y": 45.0 },
+      "hp": 180.0
+    }
+  ],
+  "phases": [
+    {
+      "phaseNumber": 1,
+      "title": "Sicherung des Totholzes",
+      "subtitle": "Wachposten im Rindenmulch",
+      "description": "Errichte eine Wachkammer und wehre die ersten Patrouillen der Raubspinne ab.",
+      "objectives": [
+        {
+          "id": "obj_em7_p1_guard",
+          "description": "Errichte 1 Wachkammer",
+          "type": "BUILD_CHAMBER",
+          "targetAmount": 1.0,
+          "targetChamberType": "GUARD_ROOM",
+          "isPrimary": true
+        },
+        {
+          "id": "obj_em7_p1_defeat",
+          "description": "Vertreibe 1 Raubinsekt",
+          "type": "DEFEAT_HAZARD",
+          "targetAmount": 1.0,
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "phaseNumber": 2,
+      "title": "Chitin-Bergung",
+      "subtitle": "Schwere Lasten",
+      "description": "Züchte starke Soldatinnen und trage riesige Proteinmengen ins Nest ein.",
+      "objectives": [
+        {
+          "id": "obj_em7_p2_soldiers",
+          "description": "Züchte 5 Soldaten-Ameisen",
+          "type": "EXPAND_POPULATION",
+          "targetAmount": 5.0,
+          "targetCaste": "SOLDIER",
+          "isPrimary": true
+        },
+        {
+          "id": "obj_em7_p2_protein",
+          "description": "Berge 180 Einheiten Protein",
+          "type": "COLLECT_RESOURCE",
+          "targetAmount": 180.0,
+          "targetResourceType": "PROTEIN",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "phaseNumber": 3,
+      "title": "Kolossales Wachstum",
+      "subtitle": "Festmahl der Larven",
+      "description": "Investiere die Proteine in ein enormes Bevölkerungswachstum.",
+      "objectives": [
+        {
+          "id": "obj_em7_p3_brood",
+          "description": "Besitze 3 Brutkammern",
+          "type": "BUILD_CHAMBER",
+          "targetAmount": 3.0,
+          "targetChamberType": "BROOD_ROOM",
+          "isPrimary": true
+        },
+        {
+          "id": "obj_em7_p3_pop",
+          "description": "Lasse die Kolonie auf 32 Ameisen anwachsen",
+          "type": "EXPAND_POPULATION",
+          "targetAmount": 32.0,
+          "isPrimary": true
+        }
+      ]
+    }
+  ],
+  "rewardGenePoints": 80.0,
+  "fileSizeKb": 16,
+  "downloadUrl": "https://raw.githubusercontent.com/AndreWiget/AppDownloads/main/Colony/levels/extra_mission_07_beetle_graveyard.json"
+}

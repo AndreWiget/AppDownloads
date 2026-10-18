@@ -1,0 +1,146 @@
+{
+  "id": "extra_mission_10_queen_dynasty",
+  "category": "EXTRA_MISSION",
+  "number": 10,
+  "title": "Extra-Mission 10: Die Königinnen-Dynastie",
+  "subtitle": "Krönung des ewigen Schwarms",
+  "description": "Die ultimative Prüfung für Meister der Entomologie. Schütze die alternde Königin, baue eine royale Prachtkammer und sichere den Hochzeitsflug der Jungköniginnen.",
+  "author": "Grand BioLab Sovereign",
+  "version": 1,
+  "difficulty": "EXPERT",
+  "initialResources": {
+    "plantMaterial": 300.0,
+    "protein": 150.0,
+    "water": 200.0,
+    "resinMineral": 200.0,
+    "genePoints": 100.0
+  },
+  "customGardenNodes": [
+    {
+      "id": "res_royal_jelly_nectar",
+      "type": "PLANT_MATERIAL",
+      "position": { "x": 50.0, "y": 25.0 },
+      "remainingAmount": 600.0,
+      "maxAmount": 600.0
+    },
+    {
+      "id": "res_dynasty_protein_node",
+      "type": "PROTEIN",
+      "position": { "x": 80.0, "y": 70.0 },
+      "remainingAmount": 350.0,
+      "maxAmount": 350.0
+    },
+    {
+      "id": "res_dynasty_water_node",
+      "type": "WATER",
+      "position": { "x": 25.0, "y": 75.0 },
+      "remainingAmount": 450.0,
+      "maxAmount": 450.0
+    }
+  ],
+  "initialHazards": [
+    {
+      "id": "hazard_dynasty_wasp",
+      "type": "WASP",
+      "position": { "x": 70.0, "y": 40.0 },
+      "hp": 200.0
+    },
+    {
+      "id": "hazard_dynasty_spider",
+      "type": "JUMPING_SPIDER",
+      "position": { "x": 40.0, "y": 60.0 },
+      "hp": 220.0
+    }
+  ],
+  "phases": [
+    {
+      "phaseNumber": 1,
+      "title": "Königliche Festung",
+      "subtitle": "Unbezwingbare Mauern",
+      "description": "Baue eine majestätische Hofhaltung aus Wachkammern, Belüftungen und Kornkammern.",
+      "objectives": [
+        {
+          "id": "obj_em10_p1_guards",
+          "description": "Errichte 2 Wachkammern",
+          "type": "BUILD_CHAMBER",
+          "targetAmount": 2.0,
+          "targetChamberType": "GUARD_ROOM",
+          "isPrimary": true
+        },
+        {
+          "id": "obj_em10_p1_vent",
+          "description": "Baue 2 Belüftungsschächte zur Klimatisierung",
+          "type": "BUILD_CHAMBER",
+          "targetAmount": 2.0,
+          "targetChamberType": "VENTILATION_SHAFT",
+          "isPrimary": true
+        },
+        {
+          "id": "obj_em10_p1_stores",
+          "description": "Besitze mindestens 3 Vorratskammern",
+          "type": "BUILD_CHAMBER",
+          "targetAmount": 3.0,
+          "targetChamberType": "FOOD_STORE",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "phaseNumber": 2,
+      "title": "Verteidigung der Krone",
+      "subtitle": "Schlag gegen die Räuber",
+      "description": "Verteidige das Nest gegen Wespen und Spinnen und züchte eine Elite-Armee.",
+      "objectives": [
+        {
+          "id": "obj_em10_p2_soldiers",
+          "description": "Züchte 8 Elitesoldaten zur Abwehr",
+          "type": "EXPAND_POPULATION",
+          "targetAmount": 8.0,
+          "targetCaste": "SOLDIER",
+          "isPrimary": true
+        },
+        {
+          "id": "obj_em10_p2_defeats",
+          "description": "Besiege 2 gefährliche Raubinsekten",
+          "type": "DEFEAT_HAZARD",
+          "targetAmount": 2.0,
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "phaseNumber": 3,
+      "title": "Der goldene Schwarmflug",
+      "subtitle": "Ewiger Fortbestand",
+      "description": "Führe die Dynastie zur Vollendung: Hunderte Vorräte, 45 Ameisen und eine gesicherte Zukunft.",
+      "objectives": [
+        {
+          "id": "obj_em10_p3_pop",
+          "description": "Erreiche eine Rekordpopulation von 45 Ameisen",
+          "type": "EXPAND_POPULATION",
+          "targetAmount": 45.0,
+          "isPrimary": true
+        },
+        {
+          "id": "obj_em10_p3_brood",
+          "description": "Besitze 5 aktive Brutkammern",
+          "type": "BUILD_CHAMBER",
+          "targetAmount": 5.0,
+          "targetChamberType": "BROOD_ROOM",
+          "isPrimary": true
+        },
+        {
+          "id": "obj_em10_p3_food",
+          "description": "Häufe 600 Pflanzenmaterial & Nektar an",
+          "type": "COLLECT_RESOURCE",
+          "targetAmount": 600.0,
+          "targetResourceType": "PLANT_MATERIAL",
+          "isPrimary": true
+        }
+      ]
+    }
+  ],
+  "rewardGenePoints": 120.0,
+  "fileSizeKb": 18,
+  "downloadUrl": "https://raw.githubusercontent.com/AndreWiget/AppDownloads/main/Colony/levels/extra_mission_10_queen_dynasty.json"
+}

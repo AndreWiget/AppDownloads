@@ -6,57 +6,106 @@
   "subtitle": "Die Suche nach tiefen Quellen",
   "description": "Die Sonne brennt unbarmherzig. Die oberflächlichen Tautropfen sind verdunstet. Grabe tiefe Kammern, um Grundwasser-Adern im Erdreich anzuzapfen.",
   "author": "Nature Strategy Hub",
-  "version": 1,
+  "version": 2,
   "difficulty": "EXPERT",
   "initialResources": {
-    "plantMaterial": 200.0,
+    "plantMaterial": 100.0,
     "protein": 50.0,
-    "water": 30.0,
-    "resinMineral": 100.0,
-    "genePoints": 30.0
+    "water": 60.0,
+    "resinMineral": 120.0,
+    "genePoints": 40.0
   },
   "customGardenNodes": [
     {
-      "id": "res_dry_resin",
+      "id": "res_dry_wood_resin",
       "type": "RESIN_MINERAL",
-      "position": {
-        "x": 40.0,
-        "y": 80.0
-      },
-      "remainingAmount": 300.0,
-      "maxAmount": 300.0
-    }
-  ],
-  "initialHazards": [
-    {
-      "id": "hazard_scorching_heat",
-      "type": "BEETLE_LARVA",
-      "position": {
-        "x": 70.0,
-        "y": 70.0
-      },
-      "hp": 80.0
-    }
-  ],
-  "objectives": [
-    {
-      "id": "obj_deep_water_chambers",
-      "description": "Errichte 3 Wasserreservoirs im Untergrund",
-      "type": "BUILD_CHAMBER",
-      "targetAmount": 3.0,
-      "targetChamberType": "WATER_RESERVOIR",
-      "isPrimary": true
+      "position": { "x": 40.0, "y": 35.0 },
+      "remainingAmount": 220.0,
+      "maxAmount": 220.0
     },
     {
-      "id": "obj_harvest_water_200",
-      "description": "Sammle 200 Wasserreserven",
-      "type": "COLLECT_RESOURCE",
-      "targetAmount": 200.0,
-      "targetResourceType": "WATER",
-      "isPrimary": true
+      "id": "res_dry_seeds",
+      "type": "PLANT_MATERIAL",
+      "position": { "x": 60.0, "y": 50.0 },
+      "remainingAmount": 190.0,
+      "maxAmount": 190.0
     }
   ],
-  "rewardGenePoints": 80.0,
+  "initialHazards": [],
+  "phases": [
+    {
+      "phaseNumber": 1,
+      "title": "Wassernotstand",
+      "subtitle": "Kampf gegen das Austrocknen",
+      "description": "Errichte rasch Tiefenspeicher und Belüftungsschächte gegen die Hitze.",
+      "objectives": [
+        {
+          "id": "obj_em3_p1_reservoirs",
+          "description": "Baue 2 Wasserreservoirs",
+          "type": "BUILD_CHAMBER",
+          "targetAmount": 2.0,
+          "targetChamberType": "WATER_RESERVOIR",
+          "isPrimary": true
+        },
+        {
+          "id": "obj_em3_p1_vent",
+          "description": "Errichte 1 Belüftungsschacht",
+          "type": "BUILD_CHAMBER",
+          "targetAmount": 1.0,
+          "targetChamberType": "VENTILATION_SHAFT",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "phaseNumber": 2,
+      "title": "Vorstoss ins Erdreich",
+      "subtitle": "Bohren nach Feuchtigkeit",
+      "description": "Grabe den Bau weit in die Tiefe und lege Pilzgärten an, die Feuchtigkeit binden.",
+      "objectives": [
+        {
+          "id": "obj_em3_p2_fungus",
+          "description": "Lege 2 Pilzgärten an",
+          "type": "BUILD_CHAMBER",
+          "targetAmount": 2.0,
+          "targetChamberType": "FUNGUS_GARDEN",
+          "isPrimary": true
+        },
+        {
+          "id": "obj_em3_p2_food",
+          "description": "Lagere 220 Pflanzenmaterial ein",
+          "type": "COLLECT_RESOURCE",
+          "targetAmount": 220.0,
+          "targetResourceType": "PLANT_MATERIAL",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "phaseNumber": 3,
+      "title": "Oase unter der Erde",
+      "subtitle": "Autarkes Überleben",
+      "description": "Bringe die Kolonie auf maximale Vitalität trotz sengender Dürre an der Oberfläche.",
+      "objectives": [
+        {
+          "id": "obj_em3_p3_water",
+          "description": "Sammle 250 Wasser in deinen Reservoirs",
+          "type": "COLLECT_RESOURCE",
+          "targetAmount": 250.0,
+          "targetResourceType": "WATER",
+          "isPrimary": true
+        },
+        {
+          "id": "obj_em3_p3_pop",
+          "description": "Lasse die Oasen-Kolonie auf 24 Ameisen anwachsen",
+          "type": "EXPAND_POPULATION",
+          "targetAmount": 24.0,
+          "isPrimary": true
+        }
+      ]
+    }
+  ],
+  "rewardGenePoints": 85.0,
   "fileSizeKb": 16,
   "downloadUrl": "https://raw.githubusercontent.com/AndreWiget/AppDownloads/main/Colony/levels/extra_mission_03_drought.json"
 }

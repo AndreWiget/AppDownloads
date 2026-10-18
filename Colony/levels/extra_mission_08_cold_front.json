@@ -1,0 +1,111 @@
+{
+  "id": "extra_mission_08_cold_front",
+  "category": "EXTRA_MISSION",
+  "number": 8,
+  "title": "Extra-Mission 8: Die Kaltfront",
+  "subtitle": "Kampf gegen den Frost",
+  "description": "Die Temperaturen fallen drastisch unter 10°C. Deine Ameisen verlangsamen sich, die Brut droht zu erstarren. Nur tief im warmen Erdreich kann die Kolonie überwintern.",
+  "author": "Cryo Biology Lab",
+  "version": 1,
+  "difficulty": "EXPERT",
+  "initialResources": {
+    "plantMaterial": 140.0,
+    "protein": 70.0,
+    "water": 100.0,
+    "resinMineral": 160.0,
+    "genePoints": 60.0
+  },
+  "customGardenNodes": [
+    {
+      "id": "res_frozen_needles_8",
+      "type": "PLANT_MATERIAL",
+      "position": { "x": 50.0, "y": 40.0 },
+      "remainingAmount": 260.0,
+      "maxAmount": 260.0
+    },
+    {
+      "id": "res_hardened_resin_8",
+      "type": "RESIN_MINERAL",
+      "position": { "x": 70.0, "y": 60.0 },
+      "remainingAmount": 220.0,
+      "maxAmount": 220.0
+    }
+  ],
+  "initialHazards": [],
+  "phases": [
+    {
+      "phaseNumber": 1,
+      "title": "Kälte-Dämmung",
+      "subtitle": "Harz und Dichtungen",
+      "description": "Befestige die Kammerwände mit mineralischem Harz und baue Belüftungen zur Temperaturregelung.",
+      "objectives": [
+        {
+          "id": "obj_em8_p1_resin",
+          "description": "Sammle 160 Harz & Mineralien",
+          "type": "COLLECT_RESOURCE",
+          "targetAmount": 160.0,
+          "targetResourceType": "RESIN_MINERAL",
+          "isPrimary": true
+        },
+        {
+          "id": "obj_em8_p1_vent",
+          "description": "Baue 2 Belüftungsschächte zur Wärmeregulierung",
+          "type": "BUILD_CHAMBER",
+          "targetAmount": 2.0,
+          "targetChamberType": "VENTILATION_SHAFT",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "phaseNumber": 2,
+      "title": "Biowärme durch Gärung",
+      "subtitle": "Die rettenden Pilzgärten",
+      "description": "Pilzgärten erzeugen stoffwechselaktive Eigenwärme. Errichte Zentren der Biowärme.",
+      "objectives": [
+        {
+          "id": "obj_em8_p2_fungus",
+          "description": "Errichte 2 Pilzgärten",
+          "type": "BUILD_CHAMBER",
+          "targetAmount": 2.0,
+          "targetChamberType": "FUNGUS_GARDEN",
+          "isPrimary": true
+        },
+        {
+          "id": "obj_em8_p2_brood",
+          "description": "Schaffe 3 warme Brutkammern",
+          "type": "BUILD_CHAMBER",
+          "targetAmount": 3.0,
+          "targetChamberType": "BROOD_ROOM",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "phaseNumber": 3,
+      "title": "Überwinterung gemeistert",
+      "subtitle": "Frühlingserwachen",
+      "description": "Halte das Nest warm und erhalte eine starke Kolonie trotz Eiseskälte.",
+      "objectives": [
+        {
+          "id": "obj_em8_p3_pop",
+          "description": "Erhalte mindestens 26 lebende Ameisen am Leben",
+          "type": "EXPAND_POPULATION",
+          "targetAmount": 26.0,
+          "isPrimary": true
+        },
+        {
+          "id": "obj_em8_p3_food",
+          "description": "Besitze 300 Pflanzenmaterial als Winterreserve",
+          "type": "COLLECT_RESOURCE",
+          "targetAmount": 300.0,
+          "targetResourceType": "PLANT_MATERIAL",
+          "isPrimary": true
+        }
+      ]
+    }
+  ],
+  "rewardGenePoints": 90.0,
+  "fileSizeKb": 16,
+  "downloadUrl": "https://raw.githubusercontent.com/AndreWiget/AppDownloads/main/Colony/levels/extra_mission_08_cold_front.json"
+}

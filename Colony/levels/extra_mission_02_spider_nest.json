@@ -4,68 +4,114 @@
   "number": 2,
   "title": "Extra-Mission 2: Spinnennest-Infiltration",
   "subtitle": "Jagd im Schatten der Hecke",
-  "description": "Eine Wolfsspinne hat ihr Revier neben der reichsten Blattlauskolonie aufgeschlagen. Trainiere eine Armee von Soldaten und erobere das Territorium.",
+  "description": "Eine Raubspinne hat ihr Revier neben der reichsten Blattlauskolonie aufgeschlagen. Trainiere Soldaten und erobere das Territorium zurück.",
   "author": "Entomology League",
-  "version": 1,
+  "version": 2,
   "difficulty": "HARD",
   "initialResources": {
     "plantMaterial": 150.0,
-    "protein": 40.0,
-    "water": 100.0,
-    "resinMineral": 50.0,
-    "genePoints": 15.0
+    "protein": 80.0,
+    "water": 120.0,
+    "resinMineral": 100.0,
+    "genePoints": 35.0
   },
   "customGardenNodes": [
     {
-      "id": "res_aphid_protein_1",
-      "type": "PROTEIN",
-      "position": {
-        "x": 85.0,
-        "y": 35.0
-      },
-      "remainingAmount": 220.0,
-      "maxAmount": 220.0
+      "id": "res_leaf_aphid_bush",
+      "type": "PLANT_MATERIAL",
+      "position": { "x": 65.0, "y": 30.0 },
+      "remainingAmount": 260.0,
+      "maxAmount": 260.0
     },
     {
-      "id": "res_aphid_sugar_1",
-      "type": "PLANT_MATERIAL",
-      "position": {
-        "x": 90.0,
-        "y": 40.0
-      },
-      "remainingAmount": 200.0,
-      "maxAmount": 200.0
+      "id": "res_spider_prey_protein",
+      "type": "PROTEIN",
+      "position": { "x": 80.0, "y": 70.0 },
+      "remainingAmount": 180.0,
+      "maxAmount": 180.0
     }
   ],
   "initialHazards": [
     {
-      "id": "hazard_boss_wolf_spider",
+      "id": "hazard_jumping_spider_boss",
       "type": "JUMPING_SPIDER",
-      "position": {
-        "x": 80.0,
-        "y": 40.0
-      },
-      "hp": 250.0
+      "position": { "x": 75.0, "y": 60.0 },
+      "hp": 220.0
     }
   ],
-  "objectives": [
+  "phases": [
     {
-      "id": "obj_defeat_spider_boss",
-      "description": "Besiege die Wolfsspinne",
-      "type": "DEFEAT_HAZARD",
-      "targetAmount": 1.0,
-      "isPrimary": true
+      "phaseNumber": 1,
+      "title": "Aufklärungs-Patrouille",
+      "subtitle": "Gefahr im Unterholz",
+      "description": "Erkunde vorsichtig das Heckenbeet und lege Vorräte für den bevorstehenden Kampf an.",
+      "objectives": [
+        {
+          "id": "obj_em2_p1_food",
+          "description": "Sammle 180 Pflanzenmaterial zur Kolonie-Stärkung",
+          "type": "COLLECT_RESOURCE",
+          "targetAmount": 180.0,
+          "targetResourceType": "PLANT_MATERIAL",
+          "isPrimary": true
+        },
+        {
+          "id": "obj_em2_p1_guards",
+          "description": "Errichte 1 Wachkammer nahe dem Nesteingang",
+          "type": "BUILD_CHAMBER",
+          "targetAmount": 1.0,
+          "targetChamberType": "GUARD_ROOM",
+          "isPrimary": true
+        }
+      ]
     },
     {
-      "id": "obj_raise_soldiers_5",
-      "description": "Züchte 5 Soldaten-Ameisen",
-      "type": "EXPAND_POPULATION",
-      "targetAmount": 5.0,
-      "targetCaste": "SOLDIER",
-      "isPrimary": true
+      "phaseNumber": 2,
+      "title": "Kriegsmobilisierung",
+      "subtitle": "Zucht der Kriegerkaste",
+      "description": "Züchte kräftige Soldaten-Ameisen heran, um den Stacheln der Spinne Paroli zu bieten.",
+      "objectives": [
+        {
+          "id": "obj_em2_p2_soldiers",
+          "description": "Züchte 4 Soldaten-Ameisen",
+          "type": "EXPAND_POPULATION",
+          "targetAmount": 4.0,
+          "targetCaste": "SOLDIER",
+          "isPrimary": true
+        },
+        {
+          "id": "obj_em2_p2_pop",
+          "description": "Vergrössere die Gesamtkolonie auf 18 Ameisen",
+          "type": "EXPAND_POPULATION",
+          "targetAmount": 18.0,
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "phaseNumber": 3,
+      "title": "Befreiung des Reviers",
+      "subtitle": "Entscheidungsschlacht",
+      "description": "Führe deine Soldaten in den Kampf und eliminiere die Bedrohung im Heckenbeet.",
+      "objectives": [
+        {
+          "id": "obj_em2_p3_defeat",
+          "description": "Besiege die Raubspinne",
+          "type": "DEFEAT_HAZARD",
+          "targetAmount": 1.0,
+          "isPrimary": true
+        },
+        {
+          "id": "obj_em2_p3_protein",
+          "description": "Sichere 120 Protein aus Beutefunden",
+          "type": "COLLECT_RESOURCE",
+          "targetAmount": 120.0,
+          "targetResourceType": "PROTEIN",
+          "isPrimary": true
+        }
+      ]
     }
   ],
-  "rewardGenePoints": 65.0,
-  "fileSizeKb": 18,
+  "rewardGenePoints": 70.0,
+  "fileSizeKb": 16,
   "downloadUrl": "https://raw.githubusercontent.com/AndreWiget/AppDownloads/main/Colony/levels/extra_mission_02_spider_nest.json"
 }
