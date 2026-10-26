@@ -1,0 +1,47 @@
+{
+  "id": 401,
+  "zone": "GLACIER",
+  "missionNumberInZone": 1,
+  "title": "FROZEN CREVASSE",
+  "subtitle": "Subzero ice tunnels with brittle destructible walls",
+  "mapWidth": 52,
+  "mapHeight": 22,
+  "baseLandingPadRow": 20,
+  "baseLandingPadCol": 2,
+  "targetTimeSeconds": 100.0,
+  "prisoners": [
+    {
+      "row": 6,
+      "col": 16
+    },
+    {
+      "row": 17,
+      "col": 26
+    },
+    {
+      "row": 8,
+      "col": 42
+    },
+    {
+      "row": 15,
+      "col": 48
+    }
+  ],
+  "enemySpawns": [
+    {
+      "type": "TANK",
+      "x": 1600.0,
+      "y": 1950.0
+    },
+    {
+      "type": "ROBO_CHOPPER",
+      "x": 2400.0,
+      "y": 700.0
+    },
+    {
+      "type": "ROBO_CHOPPER",
+      "x": 3800.0,
+      "y": 600.0
+    }
+  ]
+}

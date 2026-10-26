@@ -1,0 +1,65 @@
+{
+  "id": 502,
+  "zone": "CRYSTAL",
+  "missionNumberInZone": 2,
+  "title": "SINGULARITY VAULT",
+  "subtitle": "Extreme gravity depths with hyper-dense crystal shields",
+  "mapWidth": 62,
+  "mapHeight": 26,
+  "baseLandingPadRow": 24,
+  "baseLandingPadCol": 2,
+  "targetTimeSeconds": 140.0,
+  "prisoners": [
+    {
+      "row": 6,
+      "col": 16
+    },
+    {
+      "row": 20,
+      "col": 24
+    },
+    {
+      "row": 7,
+      "col": 38
+    },
+    {
+      "row": 18,
+      "col": 48
+    },
+    {
+      "row": 6,
+      "col": 56
+    },
+    {
+      "row": 21,
+      "col": 58
+    }
+  ],
+  "enemySpawns": [
+    {
+      "type": "TANK",
+      "x": 1600.0,
+      "y": 2350.0
+    },
+    {
+      "type": "ROBO_CHOPPER",
+      "x": 2400.0,
+      "y": 500.0
+    },
+    {
+      "type": "ROBO_CHOPPER",
+      "x": 3800.0,
+      "y": 600.0
+    },
+    {
+      "type": "ROBO_CHOPPER",
+      "x": 4800.0,
+      "y": 500.0
+    },
+    {
+      "type": "TANK",
+      "x": 5200.0,
+      "y": 2350.0
+    }
+  ]
+}

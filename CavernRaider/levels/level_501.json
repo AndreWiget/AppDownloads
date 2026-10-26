@@ -1,0 +1,56 @@
+{
+  "id": 501,
+  "zone": "CRYSTAL",
+  "missionNumberInZone": 1,
+  "title": "PRISM CAVERNS",
+  "subtitle": "Refractive crystal caverns with automated defense lasers",
+  "mapWidth": 58,
+  "mapHeight": 24,
+  "baseLandingPadRow": 22,
+  "baseLandingPadCol": 2,
+  "targetTimeSeconds": 125.0,
+  "prisoners": [
+    {
+      "row": 7,
+      "col": 18
+    },
+    {
+      "row": 19,
+      "col": 28
+    },
+    {
+      "row": 5,
+      "col": 40
+    },
+    {
+      "row": 16,
+      "col": 50
+    },
+    {
+      "row": 8,
+      "col": 54
+    }
+  ],
+  "enemySpawns": [
+    {
+      "type": "TANK",
+      "x": 1700.0,
+      "y": 2150.0
+    },
+    {
+      "type": "ROBO_CHOPPER",
+      "x": 2600.0,
+      "y": 600.0
+    },
+    {
+      "type": "ROBO_CHOPPER",
+      "x": 3900.0,
+      "y": 500.0
+    },
+    {
+      "type": "TANK",
+      "x": 4600.0,
+      "y": 2150.0
+    }
+  ]
+}

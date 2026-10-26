@@ -1,0 +1,37 @@
+{
+  "formatVersion": 1,
+  "levels": [
+    {
+      "id": 401,
+      "zone": "GLACIER",
+      "missionNumberInZone": 1,
+      "title": "FROZEN CREVASSE",
+      "subtitle": "Subzero ice tunnels with brittle destructible walls",
+      "file": "levels/level_401.json"
+    },
+    {
+      "id": 402,
+      "zone": "GLACIER",
+      "missionNumberInZone": 2,
+      "title": "CRYO CORE RUN",
+      "subtitle": "Traverse falling icicle traps to extract scientists",
+      "file": "levels/level_402.json"
+    },
+    {
+      "id": 501,
+      "zone": "CRYSTAL",
+      "missionNumberInZone": 1,
+      "title": "PRISM CAVERNS",
+      "subtitle": "Refractive crystal caverns with automated defense lasers",
+      "file": "levels/level_501.json"
+    },
+    {
+      "id": 502,
+      "zone": "CRYSTAL",
+      "missionNumberInZone": 2,
+      "title": "SINGULARITY VAULT",
+      "subtitle": "Extreme gravity depths with hyper-dense crystal shields",
+      "file": "levels/level_502.json"
+    }
+  ]
+}
