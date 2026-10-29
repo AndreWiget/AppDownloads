@@ -1,0 +1,54 @@
+[
+  {
+    "id": "level_21",
+    "levelNumber": 21,
+    "sectorNumber": 5,
+    "sectorName": "Sector 5: Community Expansion",
+    "title": "Magnetic Depths",
+    "subtitle": "Precision Magnet & Slopes",
+    "description": "Guide the swarm across deep acid chasms using magnet pulses and sloped loading ramps.",
+    "author": "Fluxlings Core Team",
+    "version": 1,
+    "fileSizeKb": 4,
+    "downloadUrl": "https://raw.githubusercontent.com/AndreWiget/AppDownloads/main/Fluxlings/levels/level_21.json"
+  },
+  {
+    "id": "level_22",
+    "levelNumber": 22,
+    "sectorNumber": 5,
+    "sectorName": "Sector 5: Community Expansion",
+    "title": "Quantum Nexus",
+    "subtitle": "Portals & Alternating Gates",
+    "description": "Use quantum portals and phase shifts to move the swarm safely through split security zones.",
+    "author": "Fluxlings Core Team",
+    "version": 1,
+    "fileSizeKb": 3,
+    "downloadUrl": "https://raw.githubusercontent.com/AndreWiget/AppDownloads/main/Fluxlings/levels/level_22.json"
+  },
+  {
+    "id": "level_23",
+    "levelNumber": 23,
+    "sectorNumber": 5,
+    "sectorName": "Sector 5: Community Expansion",
+    "title": "The Turbine Hall",
+    "subtitle": "High-Velocity Fan Currents",
+    "description": "Industrial turbines create powerful updrafts. Slow the airflow down with stasis bubbles.",
+    "author": "Fluxlings Community",
+    "version": 1,
+    "fileSizeKb": 3,
+    "downloadUrl": "https://raw.githubusercontent.com/AndreWiget/AppDownloads/main/Fluxlings/levels/level_23.json"
+  },
+  {
+    "id": "level_24",
+    "levelNumber": 24,
+    "sectorNumber": 5,
+    "sectorName": "Sector 5: Community Expansion",
+    "title": "Anti-Gravity Vault",
+    "subtitle": "Global Inversion Labyrinth",
+    "description": "Flip gravity up and down to master the ceiling labyrinth.",
+    "author": "Fluxlings Community",
+    "version": 1,
+    "fileSizeKb": 3,
+    "downloadUrl": "https://raw.githubusercontent.com/AndreWiget/AppDownloads/main/Fluxlings/levels/level_24.json"
+  }
+]

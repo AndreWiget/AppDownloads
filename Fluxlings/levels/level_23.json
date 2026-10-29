@@ -1,0 +1,124 @@
+{
+    "id": "level_23",
+    "levelNumber": 23,
+    "title": "The Turbine Hall",
+    "subtitle": "High-Velocity Fan Currents",
+    "description": "Industrial turbines create powerful updrafts. Slow the airflow down with stasis bubbles.",
+    "titleResKey": null,
+    "subtitleResKey": null,
+    "descResKey": null,
+    "stageBounds": {
+        "left": 0.0,
+        "top": 0.0,
+        "right": 1000.0,
+        "bottom": 600.0
+    },
+    "targetFluxlings": 15,
+    "requiredFluxlingsToPass": 10,
+    "timeParSeconds": 50.0,
+    "energyPar": 70.0,
+    "initialEnergy": 100.0,
+    "maxEnergy": 100.0,
+    "energyRegenRate": 10.0,
+    "availableTools": [
+        "FLUX_BRIDGE",
+        "TIME_BUBBLE",
+        "GRAVITY_SHIFT"
+    ],
+    "initialGravity": {
+        "x": 0.0,
+        "y": 680.0
+    },
+    "initialPhaseColor": "BLUE",
+    "spawnConfig": {
+        "spawnPoint": {
+            "x": 70.0,
+            "y": 450.0
+        },
+        "totalCount": 15,
+        "personalityDistribution": {
+            "NEUGIERIG": 4,
+            "MUTIG": 5,
+            "VERSPIELT": 6
+        },
+        "spawnIntervalSeconds": 0.25,
+        "initialSpreadX": 40.0
+    },
+    "platforms": [
+        {
+            "id": "spawn_plat",
+            "bounds": {
+                "left": 30.0,
+                "top": 480.0,
+                "right": 200.0,
+                "bottom": 500.0
+            },
+            "isBouncy": false,
+            "bounceFactor": 0.8,
+            "friction": 0.88
+        },
+        {
+            "id": "high_plat",
+            "bounds": {
+                "left": 400.0,
+                "top": 180.0,
+                "right": 650.0,
+                "bottom": 200.0
+            },
+            "isBouncy": false,
+            "bounceFactor": 0.8,
+            "friction": 0.88
+        },
+        {
+            "id": "exit_plat",
+            "bounds": {
+                "left": 800.0,
+                "top": 480.0,
+                "right": 960.0,
+                "bottom": 500.0
+            },
+            "isBouncy": false,
+            "bounceFactor": 0.8,
+            "friction": 0.88
+        }
+    ],
+    "slopes": [],
+    "crates": [],
+    "hazards": [],
+    "conveyors": [],
+    "pressurePads": [],
+    "fans": [
+        {
+            "id": "fan_lift",
+            "bounds": {
+                "left": 250.0,
+                "top": 150.0,
+                "right": 380.0,
+                "bottom": 520.0
+            },
+            "forceDirection": {
+                "x": 0.0,
+                "y": -1.0
+            },
+            "forceMagnitude": 750.0,
+            "isEnabled": true
+        }
+    ],
+    "portals": [],
+    "phaseFields": [],
+    "powerNodes": [],
+    "powerDoors": [],
+    "energyOrbs": [],
+    "exitDoor": {
+        "id": "exit",
+        "bounds": {
+            "left": 870.0,
+            "top": 400.0,
+            "right": 930.0,
+            "bottom": 480.0
+        },
+        "requiredFluxlings": 10,
+        "rescuedCount": 0,
+        "isOpen": true
+    }
+}

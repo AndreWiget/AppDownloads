@@ -1,0 +1,153 @@
+{
+    "id": "level_21",
+    "levelNumber": 21,
+    "title": "Magnetic Depths",
+    "subtitle": "Precision Magnet & Slopes",
+    "description": "Guide the swarm across deep acid chasms using magnet pulses and sloped loading ramps.",
+    "titleResKey": null,
+    "subtitleResKey": null,
+    "descResKey": null,
+    "stageBounds": {
+        "left": 0.0,
+        "top": 0.0,
+        "right": 1000.0,
+        "bottom": 600.0
+    },
+    "targetFluxlings": 15,
+    "requiredFluxlingsToPass": 10,
+    "timeParSeconds": 48.0,
+    "energyPar": 65.0,
+    "initialEnergy": 100.0,
+    "maxEnergy": 100.0,
+    "energyRegenRate": 10.0,
+    "availableTools": [
+        "FLUX_BRIDGE",
+        "MAGNET_PULSE",
+        "CONVEYOR_CONTROL"
+    ],
+    "initialGravity": {
+        "x": 0.0,
+        "y": 680.0
+    },
+    "initialPhaseColor": "BLUE",
+    "spawnConfig": {
+        "spawnPoint": {
+            "x": 80.0,
+            "y": 100.0
+        },
+        "totalCount": 15,
+        "personalityDistribution": {
+            "NEUGIERIG": 4,
+            "MUTIG": 4,
+            "FLEISSIG": 3,
+            "VERSPIELT": 4
+        },
+        "spawnIntervalSeconds": 0.25,
+        "initialSpreadX": 40.0
+    },
+    "platforms": [
+        {
+            "id": "spawn_plat",
+            "bounds": {
+                "left": 40.0,
+                "top": 130.0,
+                "right": 180.0,
+                "bottom": 150.0
+            },
+            "isBouncy": false,
+            "bounceFactor": 0.8,
+            "friction": 0.88
+        },
+        {
+            "id": "mid_plat",
+            "bounds": {
+                "left": 350.0,
+                "top": 250.0,
+                "right": 500.0,
+                "bottom": 270.0
+            },
+            "isBouncy": false,
+            "bounceFactor": 0.8,
+            "friction": 0.88
+        },
+        {
+            "id": "exit_plat",
+            "bounds": {
+                "left": 780.0,
+                "top": 480.0,
+                "right": 960.0,
+                "bottom": 500.0
+            },
+            "isBouncy": false,
+            "bounceFactor": 0.8,
+            "friction": 0.88
+        }
+    ],
+    "slopes": [
+        {
+            "id": "slope_1",
+            "segment": {
+                "start": {
+                    "x": 180.0,
+                    "y": 150.0
+                },
+                "end": {
+                    "x": 320.0,
+                    "y": 240.0
+                }
+            },
+            "friction": 0.9
+        }
+    ],
+    "crates": [
+        {
+            "id": "crate_1",
+            "position": {
+                "x": 420.0,
+                "y": 220.0
+            },
+            "width": 36.0,
+            "height": 36.0,
+            "velocity": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "mass": 3.5,
+            "isGrounded": false
+        }
+    ],
+    "hazards": [
+        {
+            "id": "acid_pit",
+            "bounds": {
+                "left": 200.0,
+                "top": 550.0,
+                "right": 750.0,
+                "bottom": 590.0
+            },
+            "isLaser": false,
+            "isActive": true,
+            "damage": 100.0
+        }
+    ],
+    "conveyors": [],
+    "pressurePads": [],
+    "fans": [],
+    "portals": [],
+    "phaseFields": [],
+    "powerNodes": [],
+    "powerDoors": [],
+    "energyOrbs": [],
+    "exitDoor": {
+        "id": "exit",
+        "bounds": {
+            "left": 860.0,
+            "top": 400.0,
+            "right": 920.0,
+            "bottom": 480.0
+        },
+        "requiredFluxlings": 10,
+        "rescuedCount": 0,
+        "isOpen": true
+    }
+}
