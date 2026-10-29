@@ -7,6 +7,7 @@
     "titleResKey": null,
     "subtitleResKey": null,
     "descResKey": null,
+    "version": 1,
     "stageBounds": {
         "left": 0.0,
         "top": 0.0,
