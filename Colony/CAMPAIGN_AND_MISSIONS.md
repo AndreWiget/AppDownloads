@@ -6,6 +6,8 @@ Dieses Dokument bietet eine vollständige, entwicklerorientierte Referenz aller 
 3. **Missions-Engine-Architektur & Phasen-Progression** (`MissionSystem`, `MissionPhase`, `ObjectiveType`)
 4. **JSON-Schemas & Verteilungs-Infrastruktur** (`AppDownloads`-Repository)
 
+> **Gegner im Spiel:** Welche Gegner jedes Kapitel und jede Extra-Mission tatsächlich hat, wie sie sich verhalten und ob jedes Level gewinnbar ist, steht in der Entwicklerdokumentation der App (`docs/LEVELS.md`, Stand: Build 100). Die Kapitelbeschreibungen unten sind die ursprüngliche Planung und weichen davon teils ab.
+
 ---
 
 ## 1. Architektur der Missions-Engine
@@ -280,7 +282,7 @@ Alle Extra-Missionen werden als eigenständige `.json`-Dateien serialisiert und 
   "initialHazards": [
     {
       "id": "hazard_id",
-      "type": "JUMPING_SPIDER | WASP | RAIN_PUDDLE | BEETLE_LARVA",
+      "type": "JUMPING_SPIDER | WASP | ROVE_BEETLE | MITE | DRAGONFLY | RAIN_PUDDLE | BEETLE_LARVA",
       "position": { "x": 60.0, "y": 60.0 },
       "hp": 150.0
     }

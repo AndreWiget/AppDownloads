@@ -23,7 +23,7 @@ Entwickler-Website: <a href="https://wigetinformatik.ch">https://wigetinformatik
 </ul>
 <hr>
 <h2>3. Werbeeinbindung über Google AdMob</h2>
-<p>Zur Finanzierung der kostenlosen App nutzen wir <strong>Google AdMob</strong>, einen Werbedienst der Google LLC (1600 Amphitheatre Parkway, Mountain View, CA 94043, USA) bzw. Google Ireland Limited (Gordon House, Barrow Street, Dublin 4, Irland). Die App zeigt Bannerwerbung, Vollbildanzeigen (Interstitials) nach abgeschlossenen Leveln und freiwillige Videos mit Belohnung (z. B. vor dem Download einer Extra-Mission).</p>
+<p>Zur Finanzierung der kostenlosen App nutzen wir <strong>Google AdMob</strong>, einen Werbedienst der Google LLC (1600 Amphitheatre Parkway, Mountain View, CA 94043, USA) bzw. Google Ireland Limited (Gordon House, Barrow Street, Dublin 4, Irland). Die App zeigt Bannerwerbung, Vollbildanzeigen (Interstitials) nach abgeschlossenen Leveln und freiwillige Videos mit Belohnung (z. B. vor dem Download einer Extra-Mission). Nach dem Kauf «Ohne Werbung» (Abschnitt 5) entfallen Banner und Vollbildanzeigen; freiwillige Videos mit Belohnung bleiben verfügbar.</p>
 <h3>Erhobene Daten durch Google AdMob</h3>
 <p>Das Google Mobile Ads SDK erhebt automatisch folgende Daten und übermittelt sie an Google:</p>
 <ul>
@@ -42,37 +42,45 @@ Entwickler-Website: <a href="https://wigetinformatik.ch">https://wigetinformatik
 <a href="https://policies.google.com/privacy">Google Datenschutzerklärung</a></p>
 <hr>
 <h2>4. Google Play Games-Dienste</h2>
-<p>Die App nutzt die <strong>Google Play Games-Dienste</strong> der Google LLC bzw. Google Ireland Limited für Erfolge und die Sicherung des Spielstands in der Cloud. Beim Start meldet Android Sie automatisch mit Ihrem Play-Games-Profil an, sofern Sie eines haben; Sie können Play Games in der Google Play Games-App oder den Android-Einstellungen verwalten oder abmelden.</p>
+<p>Die App nutzt die <strong>Google Play Games-Dienste</strong> der Google LLC bzw. Google Ireland Limited für Erfolge, eine Bestenliste und die Sicherung des Spielstands in der Cloud. Beim Start meldet Android Sie automatisch mit Ihrem Play-Games-Profil an, sofern Sie eines haben; Sie können Play Games in der Google Play Games-App oder den Android-Einstellungen verwalten oder abmelden.</p>
 <p>Dabei verarbeitet Google:</p>
 <ul>
 <li>Ihre <strong>Play-Games-Spieler-ID</strong> und Ihr Profil (Spielername, Avatar)</li>
 <li>Ihre <strong>Erfolge</strong> und den Fortschritt dazu</li>
+<li>Ihren <strong>Eintrag in der Bestenliste</strong> „Größte Sandbox-Kolonie“</li>
 <li>Eine <strong>Kopie Ihres Spielstands</strong> („Gespeicherte Spiele“), damit Sie auf einem anderen Gerät weiterspielen können</li>
 </ul>
 <p>Diese Daten werden in Ihrem Google-Konto gespeichert und nach der <a href="https://policies.google.com/privacy">Google Datenschutzerklärung</a> verarbeitet. Wir erhalten keinen Zugriff auf Ihr Google-Konto. Ihre Play-Games-Daten können Sie in der Google Play Games-App oder unter <a href="https://myaccount.google.com">myaccount.google.com</a> einsehen und löschen.</p>
 <hr>
-<h2>5. Berechtigungen der App</h2>
+<h2>5. In-App-Kauf «Ohne Werbung»</h2>
+<p>Mit einem einmaligen Kauf lässt sich die Werbung (Banner und Vollbildanzeigen) dauerhaft entfernen. Der Kauf wird vollständig über <strong>Google Play</strong> (Google Play Billing) abgewickelt. Google verarbeitet dabei Ihre Zahlungs- und Kontodaten nach der <a href="https://policies.google.com/privacy">Google Datenschutzerklärung</a> und den Bedingungen von Google Payments. Wir erhalten keine Zahlungsdaten.</p>
+<p>Die App fragt bei Google Play nur ab, ob der Kauf vorliegt, und merkt sich das Ergebnis lokal auf Ihrem Gerät, damit die Werbung auch ohne Internetverbindung ausgeblendet bleibt. Wir betreiben keinen eigenen Server und speichern keine Kaufdaten. Ein Kauf lässt sich auf allen Geräten mit demselben Google-Konto wiederherstellen.</p>
+<hr>
+<h2>6. Berechtigungen der App</h2>
 <p>Die App fordert folgende Berechtigungen an:</p>
 <ul>
 <li><code>android.permission.INTERNET</code>: Erforderlich zum Abruf von Werbeanzeigen (Google AdMob), für die Google Play Games-Dienste und zum Herunterladen von Extra-Missionen.</li>
 <li><code>android.permission.ACCESS_NETWORK_STATE</code>: Ermöglicht der App und AdMob zu prüfen, ob eine Netzwerkverbindung besteht.</li>
 <li><code>android.permission.VIBRATE</code>: Erforderlich für haptisches Feedback (in den Einstellungen deaktivierbar).</li>
+<li><code>com.android.vending.BILLING</code>: Erforderlich für den Kauf «Ohne Werbung» über Google Play.</li>
 </ul>
+<p>Zusätzlich bringen die eingebundenen Google-Bibliotheken technische Berechtigungen mit: <code>com.google.android.gms.permission.AD_ID</code> und <code>android.permission.ACCESS_ADSERVICES_*</code> (Werbe-ID und Android Privacy Sandbox für Google AdMob) sowie <code>android.permission.WAKE_LOCK</code> und <code>android.permission.FOREGROUND_SERVICE</code> (Hintergrundaufgaben der Google-Bibliotheken).</p>
 <p>Die App nutzt weder Kamera, Mikrofon, Standortberechtigung, Kontakte noch Dateizugriff.</p>
 <hr>
-<h2>6. Rechte der Nutzer (Auskunft, Löschung, Widerruf)</h2>
-<p>Sie haben nach den geltenden Datenschutzgesetzen (einschließlich DSGVO und Schweizer DSG) jederzeit das Recht auf Auskunft, Berichtigung, Löschung und Widerruf erteilter Einwilligungen. Da wir selbst keine personenbezogenen Daten speichern, richten sich Anfragen zu den durch Google AdMob und die Google Play Games-Dienste verarbeiteten Daten an Google. Für Fragen stehen wir Ihnen unter <a href="mailto:info@wigetinformatik.ch">info@wigetinformatik.ch</a> zur Verfügung.</p>
+<h2>7. Rechte der Nutzer (Auskunft, Löschung, Widerruf)</h2>
+<p>Sie haben nach den geltenden Datenschutzgesetzen (einschließlich DSGVO und Schweizer DSG) jederzeit das Recht auf Auskunft, Berichtigung, Löschung und Widerruf erteilter Einwilligungen. Da wir selbst keine personenbezogenen Daten speichern, richten sich Anfragen zu den durch Google AdMob, Google Play Billing und die Google Play Games-Dienste verarbeiteten Daten an Google. Für Fragen stehen wir Ihnen unter <a href="mailto:info@wigetinformatik.ch">info@wigetinformatik.ch</a> zur Verfügung.</p>
 <p>Alle lokalen Spieldaten können Sie jederzeit über „Spielstand zurücksetzen“ in den App-Einstellungen oder durch Deinstallation der App vollständig entfernen.</p>
 <hr>
-<h2>7. Privacy Policy (English Summary)</h2>
+<h2>8. Privacy Policy (English Summary)</h2>
 <p><strong>Colony: Ant Simulation</strong> is developed with user privacy in mind:</p>
 <ul>
 <li>All gameplay data, saved games, colony progress, and preferences are stored on your device. We do not collect, store, or receive any personal data ourselves.</li>
-<li>When you are signed in to <strong>Google Play Games</strong>, Google processes your Play Games player ID and profile, your achievements and a copy of your saved game (Saved Games) in your Google account, so you can continue on another device. This data is processed under the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>; you can view and delete it in the Google Play Games app or at <a href="https://myaccount.google.com">myaccount.google.com</a>.</li>
+<li>When you are signed in to <strong>Google Play Games</strong>, Google processes your Play Games player ID and profile, your achievements, your leaderboard entry and a copy of your saved game (Saved Games) in your Google account, so you can continue on another device. This data is processed under the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>; you can view and delete it in the Google Play Games app or at <a href="https://myaccount.google.com">myaccount.google.com</a>.</li>
 <li>Downloadable extra missions are fetched from GitHub (raw.githubusercontent.com); this transmits your IP address to GitHub.</li>
 <li>We use <strong>Google AdMob</strong> to show banner ads, interstitial ads after completed levels, and optional rewarded videos. The Google Mobile Ads SDK automatically collects your advertising ID and app set ID, your IP address (used to estimate approximate location), interaction data (app launches, ad taps, video views) and diagnostic data, and shares them with Google for advertising, analytics, and fraud prevention. Data is encrypted in transit.</li>
+<li>Ads (banner and interstitials) can be removed with the one-time purchase "Remove ads". The purchase is handled entirely by <strong>Google Play Billing</strong>; Google processes your payment and account data, and we receive no payment data. The app only asks Google Play whether the purchase exists and remembers the result on your device.</li>
 <li>Users in the EEA, the UK, and Switzerland are asked for consent via Google's User Messaging Platform and can change it any time under "Ad privacy choices" in the app settings.</li>
-<li>The app requests only the INTERNET, ACCESS_NETWORK_STATE, and VIBRATE permissions.</li>
+<li>The app requests the INTERNET, ACCESS_NETWORK_STATE, VIBRATE, and com.android.vending.BILLING (for the purchase via Google Play) permissions. The Google libraries it uses add AD_ID and ACCESS_ADSERVICES_* (advertising ID and Android Privacy Sandbox for AdMob) as well as WAKE_LOCK and FOREGROUND_SERVICE (their background tasks).</li>
 <li>More information: <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use its services</a></li>
 <li>Contact: <a href="mailto:info@wigetinformatik.ch">info@wigetinformatik.ch</a></li>
 </ul>
