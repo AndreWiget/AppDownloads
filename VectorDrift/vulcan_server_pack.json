@@ -354,7 +354,7 @@
                     "body": {
                         "position": {
                             "x": 29.0,
-                            "y": 5.0
+                            "y": -1.0
                         },
                         "velocity": {
                             "x": 0.0,
@@ -379,11 +379,12 @@
                     "id": "server_drop_333",
                     "center": {
                         "x": 104.0,
-                        "y": 10.0
+                        "y": -5.0
                     },
                     "radius": 10.0,
                     "requiredCargoId": "server_cargo_333",
-                    "isFulfilled": false
+                    "isFulfilled": false,
+                    "deliveredCargoId": null
                 }
             ],
             "checkpoints": [
@@ -870,7 +871,7 @@
                     "body": {
                         "position": {
                             "x": 37.0,
-                            "y": 5.0
+                            "y": -1.0
                         },
                         "velocity": {
                             "x": 0.0,
@@ -895,11 +896,12 @@
                     "id": "server_drop_337",
                     "center": {
                         "x": 112.0,
-                        "y": 10.0
+                        "y": -5.0
                     },
                     "radius": 10.0,
                     "requiredCargoId": "server_cargo_337",
-                    "isFulfilled": false
+                    "isFulfilled": false,
+                    "deliveredCargoId": null
                 }
             ],
             "checkpoints": [
@@ -1386,7 +1388,7 @@
                     "body": {
                         "position": {
                             "x": 45.0,
-                            "y": 5.0
+                            "y": -1.0
                         },
                         "velocity": {
                             "x": 0.0,
@@ -1411,11 +1413,12 @@
                     "id": "server_drop_341",
                     "center": {
                         "x": 120.0,
-                        "y": 10.0
+                        "y": -5.0
                     },
                     "radius": 10.0,
                     "requiredCargoId": "server_cargo_341",
-                    "isFulfilled": false
+                    "isFulfilled": false,
+                    "deliveredCargoId": null
                 }
             ],
             "checkpoints": [
@@ -2142,7 +2145,7 @@
                     "body": {
                         "position": {
                             "x": 57.0,
-                            "y": 5.0
+                            "y": -1.0
                         },
                         "velocity": {
                             "x": 0.0,
@@ -2167,11 +2170,12 @@
                     "id": "server_drop_347",
                     "center": {
                         "x": 132.0,
-                        "y": 10.0
+                        "y": -5.0
                     },
                     "radius": 10.0,
                     "requiredCargoId": "server_cargo_347",
-                    "isFulfilled": false
+                    "isFulfilled": false,
+                    "deliveredCargoId": null
                 }
             ],
             "checkpoints": [

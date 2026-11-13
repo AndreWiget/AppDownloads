@@ -122,7 +122,8 @@
             },
             "radius": 10.0,
             "requiredCargoId": "server_cargo_441",
-            "isFulfilled": false
+            "isFulfilled": false,
+            "deliveredCargoId": null
         }
     ],
     "checkpoints": [

@@ -383,7 +383,8 @@
                     },
                     "radius": 10.0,
                     "requiredCargoId": "server_cargo_533",
-                    "isFulfilled": false
+                    "isFulfilled": false,
+                    "deliveredCargoId": null
                 }
             ],
             "checkpoints": [
@@ -899,7 +900,8 @@
                     },
                     "radius": 10.0,
                     "requiredCargoId": "server_cargo_537",
-                    "isFulfilled": false
+                    "isFulfilled": false,
+                    "deliveredCargoId": null
                 }
             ],
             "checkpoints": [
@@ -1415,7 +1417,8 @@
                     },
                     "radius": 10.0,
                     "requiredCargoId": "server_cargo_541",
-                    "isFulfilled": false
+                    "isFulfilled": false,
+                    "deliveredCargoId": null
                 }
             ],
             "checkpoints": [
@@ -2171,7 +2174,8 @@
                     },
                     "radius": 10.0,
                     "requiredCargoId": "server_cargo_547",
-                    "isFulfilled": false
+                    "isFulfilled": false,
+                    "deliveredCargoId": null
                 }
             ],
             "checkpoints": [
