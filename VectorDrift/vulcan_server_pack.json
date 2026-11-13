@@ -99,9 +99,9 @@
                         "x": 0.0,
                         "y": 10000.0
                     },
-                    "mu": 9.8100006E8,
+                    "mu": 4.5E8,
                     "maxRadius": 20000.0,
-                    "maxAcceleration": 14.715,
+                    "maxAcceleration": 6.75,
                     "epsilon": 0.1,
                     "isArtificial": false,
                     "isInverted": false
@@ -219,9 +219,9 @@
                         "x": 0.0,
                         "y": 10000.0
                     },
-                    "mu": 9.8100006E8,
+                    "mu": 4.5E8,
                     "maxRadius": 20000.0,
-                    "maxAcceleration": 14.715,
+                    "maxAcceleration": 6.75,
                     "epsilon": 0.1,
                     "isArtificial": false,
                     "isInverted": false
@@ -339,9 +339,9 @@
                         "x": 0.0,
                         "y": 10000.0
                     },
-                    "mu": 9.8100006E8,
+                    "mu": 4.5E8,
                     "maxRadius": 20000.0,
-                    "maxAcceleration": 14.715,
+                    "maxAcceleration": 6.75,
                     "epsilon": 0.1,
                     "isArtificial": false,
                     "isInverted": false
@@ -362,7 +362,7 @@
                         },
                         "angle": 0.0,
                         "angularVelocity": 0.0,
-                        "mass": 500.0,
+                        "mass": 400.0,
                         "momentOfInertia": 2400.0,
                         "isStatic": false
                     },
@@ -496,9 +496,9 @@
                         "x": 0.0,
                         "y": 10000.0
                     },
-                    "mu": 9.8100006E8,
+                    "mu": 4.5E8,
                     "maxRadius": 20000.0,
-                    "maxAcceleration": 14.715,
+                    "maxAcceleration": 6.75,
                     "epsilon": 0.1,
                     "isArtificial": false,
                     "isInverted": false
@@ -616,9 +616,9 @@
                         "x": 0.0,
                         "y": 10000.0
                     },
-                    "mu": 9.8100006E8,
+                    "mu": 4.5E8,
                     "maxRadius": 20000.0,
-                    "maxAcceleration": 14.715,
+                    "maxAcceleration": 6.75,
                     "epsilon": 0.1,
                     "isArtificial": false,
                     "isInverted": false
@@ -736,9 +736,9 @@
                         "x": 0.0,
                         "y": 10000.0
                     },
-                    "mu": 9.8100006E8,
+                    "mu": 4.5E8,
                     "maxRadius": 20000.0,
-                    "maxAcceleration": 14.715,
+                    "maxAcceleration": 6.75,
                     "epsilon": 0.1,
                     "isArtificial": false,
                     "isInverted": false
@@ -856,9 +856,9 @@
                         "x": 0.0,
                         "y": 10000.0
                     },
-                    "mu": 9.8100006E8,
+                    "mu": 4.5E8,
                     "maxRadius": 20000.0,
-                    "maxAcceleration": 14.715,
+                    "maxAcceleration": 6.75,
                     "epsilon": 0.1,
                     "isArtificial": false,
                     "isInverted": false
@@ -879,7 +879,7 @@
                         },
                         "angle": 0.0,
                         "angularVelocity": 0.0,
-                        "mass": 500.0,
+                        "mass": 400.0,
                         "momentOfInertia": 2400.0,
                         "isStatic": false
                     },
@@ -1013,9 +1013,9 @@
                         "x": 0.0,
                         "y": 10000.0
                     },
-                    "mu": 9.8100006E8,
+                    "mu": 4.5E8,
                     "maxRadius": 20000.0,
-                    "maxAcceleration": 14.715,
+                    "maxAcceleration": 6.75,
                     "epsilon": 0.1,
                     "isArtificial": false,
                     "isInverted": false
@@ -1133,9 +1133,9 @@
                         "x": 0.0,
                         "y": 10000.0
                     },
-                    "mu": 9.8100006E8,
+                    "mu": 4.5E8,
                     "maxRadius": 20000.0,
-                    "maxAcceleration": 14.715,
+                    "maxAcceleration": 6.75,
                     "epsilon": 0.1,
                     "isArtificial": false,
                     "isInverted": false
@@ -1253,9 +1253,9 @@
                         "x": 0.0,
                         "y": 10000.0
                     },
-                    "mu": 9.8100006E8,
+                    "mu": 4.5E8,
                     "maxRadius": 20000.0,
-                    "maxAcceleration": 14.715,
+                    "maxAcceleration": 6.75,
                     "epsilon": 0.1,
                     "isArtificial": false,
                     "isInverted": false
@@ -1373,9 +1373,9 @@
                         "x": 0.0,
                         "y": 10000.0
                     },
-                    "mu": 9.8100006E8,
+                    "mu": 4.5E8,
                     "maxRadius": 20000.0,
-                    "maxAcceleration": 14.715,
+                    "maxAcceleration": 6.75,
                     "epsilon": 0.1,
                     "isArtificial": false,
                     "isInverted": false
@@ -1396,7 +1396,7 @@
                         },
                         "angle": 0.0,
                         "angularVelocity": 0.0,
-                        "mass": 500.0,
+                        "mass": 400.0,
                         "momentOfInertia": 2400.0,
                         "isStatic": false
                     },
@@ -1530,9 +1530,9 @@
                         "x": 0.0,
                         "y": 10000.0
                     },
-                    "mu": 9.8100006E8,
+                    "mu": 4.5E8,
                     "maxRadius": 20000.0,
-                    "maxAcceleration": 14.715,
+                    "maxAcceleration": 6.75,
                     "epsilon": 0.1,
                     "isArtificial": false,
                     "isInverted": false
@@ -1650,9 +1650,9 @@
                         "x": 0.0,
                         "y": 10000.0
                     },
-                    "mu": 9.8100006E8,
+                    "mu": 4.5E8,
                     "maxRadius": 20000.0,
-                    "maxAcceleration": 14.715,
+                    "maxAcceleration": 6.75,
                     "epsilon": 0.1,
                     "isArtificial": false,
                     "isInverted": false
@@ -1770,9 +1770,9 @@
                         "x": 0.0,
                         "y": 10000.0
                     },
-                    "mu": 9.8100006E8,
+                    "mu": 4.5E8,
                     "maxRadius": 20000.0,
-                    "maxAcceleration": 14.715,
+                    "maxAcceleration": 6.75,
                     "epsilon": 0.1,
                     "isArtificial": false,
                     "isInverted": false
@@ -1890,9 +1890,9 @@
                         "x": 0.0,
                         "y": 10000.0
                     },
-                    "mu": 9.8100006E8,
+                    "mu": 4.5E8,
                     "maxRadius": 20000.0,
-                    "maxAcceleration": 14.715,
+                    "maxAcceleration": 6.75,
                     "epsilon": 0.1,
                     "isArtificial": false,
                     "isInverted": false
@@ -2010,9 +2010,9 @@
                         "x": 0.0,
                         "y": 10000.0
                     },
-                    "mu": 9.8100006E8,
+                    "mu": 4.5E8,
                     "maxRadius": 20000.0,
-                    "maxAcceleration": 14.715,
+                    "maxAcceleration": 6.75,
                     "epsilon": 0.1,
                     "isArtificial": false,
                     "isInverted": false
@@ -2130,9 +2130,9 @@
                         "x": 0.0,
                         "y": 10000.0
                     },
-                    "mu": 9.8100006E8,
+                    "mu": 4.5E8,
                     "maxRadius": 20000.0,
-                    "maxAcceleration": 14.715,
+                    "maxAcceleration": 6.75,
                     "epsilon": 0.1,
                     "isArtificial": false,
                     "isInverted": false
@@ -2153,7 +2153,7 @@
                         },
                         "angle": 0.0,
                         "angularVelocity": 0.0,
-                        "mass": 500.0,
+                        "mass": 400.0,
                         "momentOfInertia": 2400.0,
                         "isStatic": false
                     },
@@ -2287,9 +2287,9 @@
                         "x": 0.0,
                         "y": 10000.0
                     },
-                    "mu": 9.8100006E8,
+                    "mu": 4.5E8,
                     "maxRadius": 20000.0,
-                    "maxAcceleration": 14.715,
+                    "maxAcceleration": 6.75,
                     "epsilon": 0.1,
                     "isArtificial": false,
                     "isInverted": false
@@ -2407,9 +2407,9 @@
                         "x": 0.0,
                         "y": 10000.0
                     },
-                    "mu": 9.8100006E8,
+                    "mu": 4.5E8,
                     "maxRadius": 20000.0,
-                    "maxAcceleration": 14.715,
+                    "maxAcceleration": 6.75,
                     "epsilon": 0.1,
                     "isArtificial": false,
                     "isInverted": false
@@ -2527,9 +2527,9 @@
                         "x": 0.0,
                         "y": 10000.0
                     },
-                    "mu": 9.8100006E8,
+                    "mu": 4.5E8,
                     "maxRadius": 20000.0,
-                    "maxAcceleration": 14.715,
+                    "maxAcceleration": 6.75,
                     "epsilon": 0.1,
                     "isArtificial": false,
                     "isInverted": false
