@@ -1,0 +1,40 @@
+# Prueft die Katalog-Updates von Astro-SNR (AstroSNR/catalog-db): Manifest, Groesse, Signatur, Versionen.
+# Die App lehnt ein fehlerhaftes Paket ab; diese Pruefung meldet den Fehler sofort nach dem Push per Mail,
+# statt dass ihn erst die Geraete still verwerfen. Lokal: python .github/scripts/verify_astro_snr_catalog.py
+name: Astro-SNR Katalog pruefen
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'AstroSNR/catalog-db/**'
+      - '.github/scripts/verify_astro_snr_catalog.py'
+      - '.github/workflows/astro-snr-catalog.yml'
+  pull_request:
+    paths:
+      - 'AstroSNR/catalog-db/**'
+      - '.github/scripts/verify_astro_snr_catalog.py'
+      - '.github/workflows/astro-snr-catalog.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      # Ganze Historie: dataVersion wird mit dem vorherigen Commit verglichen
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+
+      - name: Pakete pruefen
+        env:
+          BEFORE: ${{ github.event_name == 'push' && github.event.before || github.event.pull_request.base.sha }}
+        run: python .github/scripts/verify_astro_snr_catalog.py
