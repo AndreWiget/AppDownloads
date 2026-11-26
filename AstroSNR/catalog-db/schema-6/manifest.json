@@ -1,9 +1,9 @@
 {
   "schema": 6,
-  "dataVersion": 27,
-  "file": "catalog-27.db.gz",
+  "dataVersion": 28,
+  "file": "catalog-28.db.gz",
   "size": 1294662,
   "dbSize": 5017600,
-  "sha256": "c45488324a6b064b1e171fd293815476d1aee192dfcefe8befe29218cb21aab3",
-  "signature": "MEQCIANrp8RC8ufPvP3q6KtEqiyMU3uvWB9k3tOceZRtWQGQAiB5x8EP0EJvg6GjqSS5lehXqYsZx/GscNavebeTz2m5kw=="
+  "sha256": "082f3bf7c8b2e1adeaf2f73faf206633c97670822c45b693c5a6666b5c752bf9",
+  "signature": "MEUCIQDev7D9OucXxHo89XncLW1u4nnHvMOUmoitun4AMfYq8wIgdjW8NyNagzODxCFWpOdbLZJsiNPDBRwUVRbKBlT9T/g="
 }
